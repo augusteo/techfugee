@@ -6,15 +6,16 @@ def askari.xyz_website do
 end
 
 def backend_aydan do
-    GET     'api/mentors'   returns '{[ mentorModel ]}'
-    GET     'api/mentees'   returns '{[ menteeModel ]}'
-    POST    'api/mentee'    params '{menteeModel}' returns  '200'
-    POST    'api/mentor'    params '{mentorModel}' returns  '200'
-    POST    'api/photo/id'     body 'photo binary'
+    GET     'api/user/mentors'   returns '{[ userModel ]}'
+    GET     'api/user/mentees'   returns '{[ userModel ]}'
+    GET     'api/user/id'   returns '{ userModel }'
+    POST    'api/register'  params '{ userModel }'
+    POST    'api/photo/id'  body 'photo binary'
+    GET     'api/connect/myID/toID'
     basic auth with username & password
 end
 
-def iOS do
+def app do
     as a 'first time user' i want to 'know what problem the app is solving'
     as a 'first time user' i want to 'register as mentee'
     as a 'first time user' i want to 'register as mentor'
