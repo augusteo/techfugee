@@ -24,9 +24,12 @@ solving the problem?
 Feasibility & Sustainability
 What are your barriers to entry or user adoption? How are you addressing those challenges? What is your rollout strategy? Is it scalable and self-sustaining?
 
-  barrier   : need to have an iPhone
-  address   : future iteration will include android and responsive web
-  scale     : extremely scaleable, only need ocassional CX and bug fixes
+  barrier     : need to have an iPhone
+  fix         : future iteration will include android and responsive web
+  scale       : extremely scaleable, all automated
+  sustainable : requires minimal running cost ($50/month)
+  cash from   : NGO/gov funding and private donations
+  manpower    : volunteer services/NGO like code for australia
 
 Accomplishment & Learning
 How much did they accomplish in the weekend? Did they demonstrate learning from mentors to help inform a better solution? Did the demo test core assumptions?

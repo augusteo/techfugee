@@ -3,7 +3,6 @@ Administration & Office Support
 Advertising, Arts & Media
 Banking & Financial Services
 Call Centre & Customer Service
-CEO & General Management
 Community Services & Development
 Construction
 Consulting & Strategy
@@ -11,7 +10,6 @@ Design & Architecture
 Education & Training
 Engineering
 Farming, Animals & Conservation
-Government & Defence
 Healthcare & Medical
 Hospitality & Tourism
 Human Resources & Recruitment

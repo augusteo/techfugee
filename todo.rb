@@ -12,7 +12,7 @@ def backend_aydan do
     POST    'api/register'  params '{ userModel }'
     POST    'api/photo/id'  body 'photo binary'
     GET     'api/connect/myID/toID'
-    basic auth with username & password
+    POST    'api/login'     basic auth
 end
 
 def app do
