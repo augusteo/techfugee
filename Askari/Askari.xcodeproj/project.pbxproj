@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A52EB361CC1177900A6BC5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB351CC1177900A6BC5C /* AppDelegate.swift */; };
+		6A52EB3B1CC1177A00A6BC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB391CC1177A00A6BC5C /* Main.storyboard */; };
+		6A52EB3D1CC1177A00A6BC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB3C1CC1177A00A6BC5C /* Assets.xcassets */; };
+		6A52EB401CC1177A00A6BC5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB3E1CC1177A00A6BC5C /* LaunchScreen.storyboard */; };
+		6A52EB4B1CC1177A00A6BC5C /* AskariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB4A1CC1177A00A6BC5C /* AskariTests.swift */; };
+		6A52EB5F1CC11AF400A6BC5C /* ProfileStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB5E1CC11AF400A6BC5C /* ProfileStoryboard.storyboard */; };
+		6A52EB631CC12E4A00A6BC5C /* ConnectStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB621CC12E4A00A6BC5C /* ConnectStoryboard.storyboard */; };
+		6A52EB651CC12E5400A6BC5C /* InfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB641CC12E5400A6BC5C /* InfoStoryboard.storyboard */; };
+		6A52EB671CC1311D00A6BC5C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB661CC1311D00A6BC5C /* ProfileViewController.swift */; };
+		6A52EB6B1CC1317600A6BC5C /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB6A1CC1317600A6BC5C /* ConnectViewController.swift */; };
+		6A52EB6F1CC131D500A6BC5C /* ResultsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB6E1CC131D500A6BC5C /* ResultsStoryboard.storyboard */; };
+		6A52EB711CC1325800A6BC5C /* ResultsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB701CC1325800A6BC5C /* ResultsCollectionViewController.swift */; };
+		6A52EB731CC1327600A6BC5C /* ResultsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB721CC1327600A6BC5C /* ResultsDetailViewController.swift */; };
+		6A52EB751CC1329100A6BC5C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB741CC1329100A6BC5C /* InfoViewController.swift */; };
+		6A52EB771CC18FC500A6BC5C /* SignUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB761CC18FC500A6BC5C /* SignUpStoryboard.storyboard */; };
+		6A52EB791CC18FEE00A6BC5C /* SelectTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB781CC18FEE00A6BC5C /* SelectTypeViewController.swift */; };
+		6A52EB7D1CC190FF00A6BC5C /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB7C1CC190FF00A6BC5C /* CustomTabBarController.swift */; };
+		6A52EB811CC193B500A6BC5C /* MentorSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB801CC193B500A6BC5C /* MentorSignUpViewController.swift */; };
+		6A52EB831CC193C200A6BC5C /* MenteeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB821CC193C200A6BC5C /* MenteeSignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A52EB471CC1177A00A6BC5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A52EB2A1CC1177900A6BC5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A52EB311CC1177900A6BC5C;
+			remoteInfo = Askari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A52EB321CC1177900A6BC5C /* Askari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Askari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A52EB351CC1177900A6BC5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A52EB3A1CC1177A00A6BC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A52EB3C1CC1177A00A6BC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A52EB3F1CC1177A00A6BC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A52EB411CC1177A00A6BC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A52EB461CC1177A00A6BC5C /* AskariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AskariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A52EB4A1CC1177A00A6BC5C /* AskariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskariTests.swift; sourceTree = "<group>"; };
+		6A52EB4C1CC1177A00A6BC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A52EB5E1CC11AF400A6BC5C /* ProfileStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileStoryboard.storyboard; sourceTree = "<group>"; };
+		6A52EB621CC12E4A00A6BC5C /* ConnectStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ConnectStoryboard.storyboard; sourceTree = "<group>"; };
+		6A52EB641CC12E5400A6BC5C /* InfoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InfoStoryboard.storyboard; sourceTree = "<group>"; };
+		6A52EB661CC1311D00A6BC5C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6A52EB6A1CC1317600A6BC5C /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		6A52EB6E1CC131D500A6BC5C /* ResultsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResultsStoryboard.storyboard; sourceTree = "<group>"; };
+		6A52EB701CC1325800A6BC5C /* ResultsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCollectionViewController.swift; sourceTree = "<group>"; };
+		6A52EB721CC1327600A6BC5C /* ResultsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsDetailViewController.swift; sourceTree = "<group>"; };
+		6A52EB741CC1329100A6BC5C /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		6A52EB761CC18FC500A6BC5C /* SignUpStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUpStoryboard.storyboard; sourceTree = "<group>"; };
+		6A52EB781CC18FEE00A6BC5C /* SelectTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTypeViewController.swift; sourceTree = "<group>"; };
+		6A52EB7C1CC190FF00A6BC5C /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = ../CustomTabBarController.swift; sourceTree = "<group>"; };
+		6A52EB801CC193B500A6BC5C /* MentorSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorSignUpViewController.swift; sourceTree = "<group>"; };
+		6A52EB821CC193C200A6BC5C /* MenteeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenteeSignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A52EB2F1CC1177900A6BC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A52EB431CC1177A00A6BC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A52EB291CC1177900A6BC5C = {
+			isa = PBXGroup;
+			children = (
+				6A52EB341CC1177900A6BC5C /* Askari */,
+				6A52EB491CC1177A00A6BC5C /* AskariTests */,
+				6A52EB331CC1177900A6BC5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A52EB331CC1177900A6BC5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A52EB321CC1177900A6BC5C /* Askari.app */,
+				6A52EB461CC1177A00A6BC5C /* AskariTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A52EB341CC1177900A6BC5C /* Askari */ = {
+			isa = PBXGroup;
+			children = (
+				6A52EB551CC118B400A6BC5C /* SignUp */,
+				6A52EB561CC119E000A6BC5C /* Profile */,
+				6A52EB571CC119EE00A6BC5C /* Results */,
+				6A52EB581CC11A1300A6BC5C /* Connect */,
+				6A52EB591CC11A2700A6BC5C /* Info */,
+				6A52EB351CC1177900A6BC5C /* AppDelegate.swift */,
+				6A52EB391CC1177A00A6BC5C /* Main.storyboard */,
+				6A52EB7C1CC190FF00A6BC5C /* CustomTabBarController.swift */,
+				6A52EB3C1CC1177A00A6BC5C /* Assets.xcassets */,
+				6A52EB3E1CC1177A00A6BC5C /* LaunchScreen.storyboard */,
+				6A52EB411CC1177A00A6BC5C /* Info.plist */,
+			);
+			path = Askari;
+			sourceTree = "<group>";
+		};
+		6A52EB491CC1177A00A6BC5C /* AskariTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A52EB4A1CC1177A00A6BC5C /* AskariTests.swift */,
+				6A52EB4C1CC1177A00A6BC5C /* Info.plist */,
+			);
+			path = AskariTests;
+			sourceTree = "<group>";
+		};
+		6A52EB551CC118B400A6BC5C /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				6A52EB761CC18FC500A6BC5C /* SignUpStoryboard.storyboard */,
+				6A52EB781CC18FEE00A6BC5C /* SelectTypeViewController.swift */,
+				6A52EB801CC193B500A6BC5C /* MentorSignUpViewController.swift */,
+				6A52EB821CC193C200A6BC5C /* MenteeSignUpViewController.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		6A52EB561CC119E000A6BC5C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6A52EB5E1CC11AF400A6BC5C /* ProfileStoryboard.storyboard */,
+				6A52EB661CC1311D00A6BC5C /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		6A52EB571CC119EE00A6BC5C /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				6A52EB6E1CC131D500A6BC5C /* ResultsStoryboard.storyboard */,
+				6A52EB701CC1325800A6BC5C /* ResultsCollectionViewController.swift */,
+				6A52EB721CC1327600A6BC5C /* ResultsDetailViewController.swift */,
+			);
+			name = Results;
+			sourceTree = "<group>";
+		};
+		6A52EB581CC11A1300A6BC5C /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				6A52EB621CC12E4A00A6BC5C /* ConnectStoryboard.storyboard */,
+				6A52EB6A1CC1317600A6BC5C /* ConnectViewController.swift */,
+			);
+			name = Connect;
+			sourceTree = "<group>";
+		};
+		6A52EB591CC11A2700A6BC5C /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				6A52EB641CC12E5400A6BC5C /* InfoStoryboard.storyboard */,
+				6A52EB741CC1329100A6BC5C /* InfoViewController.swift */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A52EB311CC1177900A6BC5C /* Askari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A52EB4F1CC1177A00A6BC5C /* Build configuration list for PBXNativeTarget "Askari" */;
+			buildPhases = (
+				6A52EB2E1CC1177900A6BC5C /* Sources */,
+				6A52EB2F1CC1177900A6BC5C /* Frameworks */,
+				6A52EB301CC1177900A6BC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Askari;
+			productName = Askari;
+			productReference = 6A52EB321CC1177900A6BC5C /* Askari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A52EB451CC1177A00A6BC5C /* AskariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A52EB521CC1177A00A6BC5C /* Build configuration list for PBXNativeTarget "AskariTests" */;
+			buildPhases = (
+				6A52EB421CC1177A00A6BC5C /* Sources */,
+				6A52EB431CC1177A00A6BC5C /* Frameworks */,
+				6A52EB441CC1177A00A6BC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A52EB481CC1177A00A6BC5C /* PBXTargetDependency */,
+			);
+			name = AskariTests;
+			productName = AskariTests;
+			productReference = 6A52EB461CC1177A00A6BC5C /* AskariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A52EB2A1CC1177900A6BC5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pk Heng";
+				TargetAttributes = {
+					6A52EB311CC1177900A6BC5C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6A52EB451CC1177A00A6BC5C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6A52EB311CC1177900A6BC5C;
+					};
+				};
+			};
+			buildConfigurationList = 6A52EB2D1CC1177900A6BC5C /* Build configuration list for PBXProject "Askari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A52EB291CC1177900A6BC5C;
+			productRefGroup = 6A52EB331CC1177900A6BC5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A52EB311CC1177900A6BC5C /* Askari */,
+				6A52EB451CC1177A00A6BC5C /* AskariTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A52EB301CC1177900A6BC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A52EB401CC1177A00A6BC5C /* LaunchScreen.storyboard in Resources */,
+				6A52EB3D1CC1177A00A6BC5C /* Assets.xcassets in Resources */,
+				6A52EB3B1CC1177A00A6BC5C /* Main.storyboard in Resources */,
+				6A52EB651CC12E5400A6BC5C /* InfoStoryboard.storyboard in Resources */,
+				6A52EB5F1CC11AF400A6BC5C /* ProfileStoryboard.storyboard in Resources */,
+				6A52EB6F1CC131D500A6BC5C /* ResultsStoryboard.storyboard in Resources */,
+				6A52EB771CC18FC500A6BC5C /* SignUpStoryboard.storyboard in Resources */,
+				6A52EB631CC12E4A00A6BC5C /* ConnectStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A52EB441CC1177A00A6BC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A52EB2E1CC1177900A6BC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A52EB731CC1327600A6BC5C /* ResultsDetailViewController.swift in Sources */,
+				6A52EB7D1CC190FF00A6BC5C /* CustomTabBarController.swift in Sources */,
+				6A52EB811CC193B500A6BC5C /* MentorSignUpViewController.swift in Sources */,
+				6A52EB831CC193C200A6BC5C /* MenteeSignUpViewController.swift in Sources */,
+				6A52EB791CC18FEE00A6BC5C /* SelectTypeViewController.swift in Sources */,
+				6A52EB671CC1311D00A6BC5C /* ProfileViewController.swift in Sources */,
+				6A52EB711CC1325800A6BC5C /* ResultsCollectionViewController.swift in Sources */,
+				6A52EB6B1CC1317600A6BC5C /* ConnectViewController.swift in Sources */,
+				6A52EB751CC1329100A6BC5C /* InfoViewController.swift in Sources */,
+				6A52EB361CC1177900A6BC5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A52EB421CC1177A00A6BC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A52EB4B1CC1177A00A6BC5C /* AskariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A52EB481CC1177A00A6BC5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A52EB311CC1177900A6BC5C /* Askari */;
+			targetProxy = 6A52EB471CC1177A00A6BC5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A52EB391CC1177A00A6BC5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A52EB3A1CC1177A00A6BC5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A52EB3E1CC1177A00A6BC5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A52EB3F1CC1177A00A6BC5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A52EB4D1CC1177A00A6BC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A52EB4E1CC1177A00A6BC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A52EB501CC1177A00A6BC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Askari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7musketeers.Askari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A52EB511CC1177A00A6BC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Askari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7musketeers.Askari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A52EB531CC1177A00A6BC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AskariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7musketeers.AskariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Askari.app/Askari";
+			};
+			name = Debug;
+		};
+		6A52EB541CC1177A00A6BC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AskariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7musketeers.AskariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Askari.app/Askari";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A52EB2D1CC1177900A6BC5C /* Build configuration list for PBXProject "Askari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A52EB4D1CC1177A00A6BC5C /* Debug */,
+				6A52EB4E1CC1177A00A6BC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A52EB4F1CC1177A00A6BC5C /* Build configuration list for PBXNativeTarget "Askari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A52EB501CC1177A00A6BC5C /* Debug */,
+				6A52EB511CC1177A00A6BC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A52EB521CC1177A00A6BC5C /* Build configuration list for PBXNativeTarget "AskariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A52EB531CC1177A00A6BC5C /* Debug */,
+				6A52EB541CC1177A00A6BC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A52EB2A1CC1177900A6BC5C /* Project object */;
+}
