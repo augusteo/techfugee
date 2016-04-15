@@ -27,14 +27,14 @@ def iOS do
     as a 'mentee' i want to 'edit my profile'
     as a 'mentee' i want to 'upload my profile photo'
     as a 'mentee' i want to 'find mentors that is in my industry'
-    as a 'mentee' i want to 'request connection with my desired mentor'
+    as a 'mentee' i want to 'request mentorship with my desired mentor'
     as a 'mentee' i want to 'see my connected mentors'
     as a 'mentee' i want to 'chat with my connected mentor'
 
     as a 'mentor' i want to 'edit my profile'
     as a 'mentor' i want to 'upload my profile photo'
     as a 'mentor' i want to 'find mentee that is in my industry'
-    as a 'mentor' i want to 'request connection with my desired mentee'
+    as a 'mentor' i want to 'offer mentorshio to my desired mentee'
     as a 'mentor' i want to 'see my connected mentee'
     as a 'mentor' i want to 'chat with my connected mentee'
 end
