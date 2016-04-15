@@ -3,7 +3,7 @@
 ### Framework
 Grails
 
-### Interpreter
+### Compiler
 Java 8
 
 ### Database
