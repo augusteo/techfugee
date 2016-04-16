@@ -67,12 +67,30 @@
                     <view key="view" contentMode="scaleToFill" id="Gh0-Ft-v4V">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdU-QT-KPb">
+                                <rect key="frame" x="260" y="450" width="80" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="8qK-z6-JYa"/>
+                                    <constraint firstAttribute="height" constant="50" id="zL1-Bg-cxY"/>
+                                </constraints>
+                                <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="didSelectSignUp:" destination="c94-ym-suo" eventType="touchUpInside" id="Vsp-H6-rdH"/>
+                                    <action selector="menteeDidSignUp:" destination="n3p-Gz-ef2" eventType="touchUpInside" id="S5v-NV-TUq"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aXH-8Q-R39" firstAttribute="top" secondItem="XdU-QT-KPb" secondAttribute="bottom" constant="100" id="Ivv-Ub-xbC"/>
+                            <constraint firstItem="XdU-QT-KPb" firstAttribute="centerX" secondItem="Gh0-Ft-v4V" secondAttribute="centerX" id="VGW-fd-bb5"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZuI-kk-ljv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1872" y="852"/>
+            <point key="canvasLocation" x="1846" y="606"/>
         </scene>
         <!--Mentor Sign Up View Controller-->
         <scene sceneID="HZd-oB-rb1">

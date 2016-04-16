@@ -29,6 +29,12 @@ class ResultsCollectionViewController: UICollectionViewController {
 
       // Do any additional setup after loading the view.
   }
+  
+  override func viewWillAppear(animated: Bool) {
+    
+    print(EntityManager.shareInstance.entity)
+    
+  }
 
   override func didReceiveMemoryWarning() {
       super.didReceiveMemoryWarning()
