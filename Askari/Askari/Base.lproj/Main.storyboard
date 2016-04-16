@@ -38,7 +38,7 @@
         <scene sceneID="NWX-3g-UUC">
             <objects>
                 <viewControllerPlaceholder storyboardName="ProfileStoryboard" id="Yn9-rT-YDf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" id="L9V-Jj-M0Y"/>
+                    <tabBarItem key="tabBarItem" title="Profile" selectedImage="profile" id="L9V-Jj-M0Y"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OIO-IR-Czf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,7 +48,7 @@
         <scene sceneID="B8U-gX-UgH">
             <objects>
                 <viewControllerPlaceholder storyboardName="ResultsStoryboard" id="SaD-bI-UG2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Iqu-UU-YcQ"/>
+                    <tabBarItem key="tabBarItem" title="Browse" selectedImage="mentor" id="Iqu-UU-YcQ"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zld-mw-QOr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,7 +58,7 @@
         <scene sceneID="6Yu-FC-OrW">
             <objects>
                 <viewControllerPlaceholder storyboardName="ConnectStoryboard" id="ScM-0E-uXP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="erp-J3-egs"/>
+                    <tabBarItem key="tabBarItem" title="Connect" selectedImage="connect" id="erp-J3-egs"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbN-s6-rJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,11 +68,17 @@
         <scene sceneID="pWR-eZ-bcC">
             <objects>
                 <viewControllerPlaceholder storyboardName="InfoStoryboard" id="uEp-w2-PLP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="kIF-yq-psT"/>
+                    <tabBarItem key="tabBarItem" selectedImage="info" systemItem="more" id="kIF-yq-psT"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mm3-eh-Q6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="739.5" y="255"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="connect" width="600" height="600"/>
+        <image name="info" width="600" height="600"/>
+        <image name="mentor" width="600" height="600"/>
+        <image name="profile" width="600" height="600"/>
+    </resources>
 </document>

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '70B7C8F8F5397BF4C47D91EB'
+               BlueprintIdentifier = '5B6596C4F18C0D3CDB67CBA7'
                BlueprintName = 'Pods-AskariTests'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_AskariTests.framework'>

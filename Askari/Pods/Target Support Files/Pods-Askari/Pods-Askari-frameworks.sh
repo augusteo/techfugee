@@ -89,6 +89,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Askari/Onboard.framework"
   install_framework "Pods-Askari/Result.framework"
   install_framework "Pods-Askari/SwiftyJSON.framework"
+  install_framework "Pods-Askari/TextFieldEffects.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Askari/Alamofire.framework"
@@ -96,4 +97,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Askari/Onboard.framework"
   install_framework "Pods-Askari/Result.framework"
   install_framework "Pods-Askari/SwiftyJSON.framework"
+  install_framework "Pods-Askari/TextFieldEffects.framework"
 fi

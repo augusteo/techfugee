@@ -89,6 +89,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/Onboard.framework"
   install_framework "Pods/Result.framework"
   install_framework "Pods/SwiftyJSON.framework"
+  install_framework "Pods/TextFieldEffects.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/Alamofire.framework"
@@ -96,4 +97,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/Onboard.framework"
   install_framework "Pods/Result.framework"
   install_framework "Pods/SwiftyJSON.framework"
+  install_framework "Pods/TextFieldEffects.framework"
 fi
