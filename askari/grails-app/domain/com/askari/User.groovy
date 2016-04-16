@@ -2,6 +2,7 @@ package com.askari
 
 class User {
 
+	Long id
 	String email
 	String password
 	Boolean isMentor

@@ -8,6 +8,15 @@ class PhotoController {
 
 	def uploadPhoto(){
 		
+		def userId = request.userId
+		User user = User.findById(userId)
+		
+		if (user==null){
+			log.error("User does not exist");
+			response.status = NOT_ACCEPTABLE.value()
+			return
+		}
+		
 		java.util.List<MultipartFile> files = request.getFile('file')
 		
 		if (files.empty){
@@ -32,8 +41,10 @@ class PhotoController {
 		
 		String uri = urlPath+"/"+filename;
 		HashMap<String,String> responseDict = new HashMap<String,String>()
-		responseDict.put("url", fileDest)
 		
+		user.setPhoto(uri)
+		
+		responseDict.put("url", uri)
 		render responseDict as JSON
 		render status: OK
 	}

@@ -7,7 +7,7 @@ class UrlMappings {
 			"/user"(controller: "user", action: 'createUser', method: "POST")
 			"/user"(controller: "user", action: 'readUser', method: "GET")
 			"/login"(controller: "login", action: 'login', method: "POST")
-			"/photo"(controller: "photo", action: 'uploadPhoto', method: "POST")
+			"/photo/$userId"(controller: "photo", action: 'uploadPhoto', method: "POST")
 		}
 		"/"(view:"/index")
 		"500"(view:'/error')
