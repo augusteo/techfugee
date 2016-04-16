@@ -1,0 +1,117 @@
+<html>
+	<head>
+	
+		<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+	
+	</head>
+	
+	<body>
+	<div class="container">
+	<table class="striped" width="800">
+		<tr>
+			<td width="80%"><b>URL:</b> /api/mentors</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Returns the complete list of mentor user entities.<br/><br/></td>
+		</tr>
+		<tr>
+			<td><b>URL:</b> /api/mentees</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Returns the complete list of mentee user entities.<br/><br/></td>
+		</tr>
+		
+		<tr>
+			<td><b>URL:</b> /api/mentors</td>
+			<td><b>METHOD:</b> POST</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Allows submission of a new mentor. Returns the persisted user entity.<br/><br/></td>
+		</tr>
+		
+		<tr>
+			<td><b>URL:</b> /api/user/%UserId%</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Returns the user entity corresponding to the provided UserId.<br/><br/></td>
+		</tr>
+		
+		<tr>
+			<td><b>URL:</b> /api/login</td>
+			<td><b>METHOD:</b> POST</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Uses HTTP Basic Auth to validate username and password parameters for Mentors and Mentees.<br/><br/></td>
+		</tr>
+		
+		<tr>
+			<td><b>URL:</b> api/photo/%UserId%</td>
+			<td><b>METHOD:</b> POST</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Allows for submission of photos for Mentors and Mentees. Returns the updated user entity.<br/><br/></td>
+		</tr>
+		
+		<tr>
+			<td><b>URL:</b> /api/connect/%MentorId%/%MenteeId%</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Initiates a connection request between a Mentor and Mentee. Returns the connection entity.<br/><br/></td>
+		</tr>
+		
+		
+		<tr>
+			<td><b>URL:</b> /api/connect/%UserId%/unconfirmed</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Returns a complete list of connections (confirmed and unconfirmed) for the user corresponding to the UserId.<br/><br/></td>
+		</tr>
+		
+		<tr>
+			<td><b>URL:</b> /api/connect/%UserId%/confirmed</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Returns a list of confirmed connections for the user corresponding to the UserId.<br/><br/></td>
+		</tr>
+		
+				<tr>
+			<td><b>URL:</b> /api/connect/%UserId%/unconfirmed</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Returns a list of unconfirmed connections for the user corresponding to the UserId.<br/><br/></td>
+		</tr>
+		
+				<tr>
+			<td><b>URL:</b> /api/connect/%ConnectionId%</td>
+			<td><b>METHOD:</b> DELTE</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Removes the connection (confirmed or unconfirmed). <br/><br/></td>
+		</tr>
+		
+		<tr>
+			<td><b>URL:</b> /api/connect/confirm/%ConnectionId%</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Marks the Connection corresponding to the ConnectionId as confirmed.<br/><br/></td>
+		</tr>
+		
+	</table>
+	</div
+		
+		
+	
+	</body>
+</html>
