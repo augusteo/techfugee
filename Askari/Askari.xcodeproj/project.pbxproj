@@ -10,6 +10,9 @@
 		1CE1E4FA1CC1BEA100B46B0D /* PrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1E4F91CC1BEA000B46B0D /* PrivacyVC.swift */; };
 		1CE1E4FC1CC1BEAB00B46B0D /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1E4FB1CC1BEAB00B46B0D /* TermsVC.swift */; };
 		1CE1E4FE1CC1BEB300B46B0D /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1E4FD1CC1BEB300B46B0D /* ContactVC.swift */; };
+		1CE6B6571CC2050400B31C04 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6B6561CC2050400B31C04 /* RequestCell.swift */; };
+		1CE6B6591CC2050E00B31C04 /* ConfirmedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6B6581CC2050E00B31C04 /* ConfirmedCell.swift */; };
+		1CE6B65B1CC2051F00B31C04 /* LiveChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6B65A1CC2051F00B31C04 /* LiveChatVC.swift */; };
 		6A52EB361CC1177900A6BC5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB351CC1177900A6BC5C /* AppDelegate.swift */; };
 		6A52EB3B1CC1177A00A6BC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB391CC1177A00A6BC5C /* Main.storyboard */; };
 		6A52EB3D1CC1177A00A6BC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB3C1CC1177A00A6BC5C /* Assets.xcassets */; };
@@ -50,6 +53,9 @@
 		1CE1E4F91CC1BEA000B46B0D /* PrivacyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyVC.swift; sourceTree = "<group>"; };
 		1CE1E4FB1CC1BEAB00B46B0D /* TermsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
 		1CE1E4FD1CC1BEB300B46B0D /* ContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		1CE6B6561CC2050400B31C04 /* RequestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
+		1CE6B6581CC2050E00B31C04 /* ConfirmedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmedCell.swift; sourceTree = "<group>"; };
+		1CE6B65A1CC2051F00B31C04 /* LiveChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveChatVC.swift; sourceTree = "<group>"; };
 		341034DB7FECECA44FAC578F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B25C5027DD2EC4B8512F8D1 /* Pods_Askari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Askari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E630C25E1D3EF1069473160 /* Pods_AskariTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskariTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -197,6 +203,9 @@
 			children = (
 				6A52EB621CC12E4A00A6BC5C /* ConnectStoryboard.storyboard */,
 				6A52EB6A1CC1317600A6BC5C /* ConnectViewController.swift */,
+				1CE6B6561CC2050400B31C04 /* RequestCell.swift */,
+				1CE6B6581CC2050E00B31C04 /* ConfirmedCell.swift */,
+				1CE6B65A1CC2051F00B31C04 /* LiveChatVC.swift */,
 			);
 			name = Connect;
 			sourceTree = "<group>";
@@ -507,12 +516,15 @@
 				1CE1E4FA1CC1BEA100B46B0D /* PrivacyVC.swift in Sources */,
 				6A52EB7D1CC190FF00A6BC5C /* CustomTabBarController.swift in Sources */,
 				6AE27E0B1CC19D030010AD09 /* EntityManager.swift in Sources */,
+				1CE6B65B1CC2051F00B31C04 /* LiveChatVC.swift in Sources */,
 				6A52EB811CC193B500A6BC5C /* MentorSignUpViewController.swift in Sources */,
+				1CE6B6571CC2050400B31C04 /* RequestCell.swift in Sources */,
 				6AE27E0D1CC19D760010AD09 /* EntityModel.swift in Sources */,
 				6A52EB831CC193C200A6BC5C /* MenteeSignUpViewController.swift in Sources */,
 				6A52EB791CC18FEE00A6BC5C /* SelectTypeViewController.swift in Sources */,
 				1CE1E4FC1CC1BEAB00B46B0D /* TermsVC.swift in Sources */,
 				6AA418531CC1A55A0075DB00 /* AskariAPI.swift in Sources */,
+				1CE6B6591CC2050E00B31C04 /* ConfirmedCell.swift in Sources */,
 				6A52EB671CC1311D00A6BC5C /* ProfileViewController.swift in Sources */,
 				6A52EB711CC1325800A6BC5C /* ResultsCollectionViewController.swift in Sources */,
 				6A52EB6B1CC1317600A6BC5C /* ConnectViewController.swift in Sources */,
