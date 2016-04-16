@@ -24,9 +24,8 @@ class ShareProfileViewController: UIViewController {
     
   }
   
-  
-  override func viewDidAppear(animated: Bool) {
-    super.viewDidAppear(animated)
+  override func viewWillAppear(animated: Bool) {
+    super.viewWillAppear(animated)
     refreshDetails()
   }
 

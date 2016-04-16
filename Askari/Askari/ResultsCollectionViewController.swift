@@ -8,7 +8,7 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "resultCell"
 
 class ResultsCollectionViewController: UICollectionViewController {
 
@@ -25,7 +25,7 @@ class ResultsCollectionViewController: UICollectionViewController {
       // self.clearsSelectionOnViewWillAppear = false
 
       // Register cell classes
-      self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+      self.collectionView?.registerNib(UINib(nibName: "ResultCollectionCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
 
       // Do any additional setup after loading the view.
   }
@@ -54,24 +54,28 @@ class ResultsCollectionViewController: UICollectionViewController {
   // MARK: UICollectionViewDataSource
 
   override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-      // #warning Incomplete implementation, return the number of sections
-      return 0
+      return 1
   }
 
 
   override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-      // #warning Incomplete implementation, return the number of items
-      return 0
+    
+      return 10
   }
 
-  override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-      let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath)
+override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! ResultCollectionCell
   
-      // Configure the cell
   
-      return cell
-  }
+  /* Substitute this with the entity results */
+  cell.nameLbl.text = "Test Name"
+  cell.titleLbl.text = "Test Profession"
+  
 
+    return cell
+  }
+  
+  
   // MARK: UICollectionViewDelegate
 
   /*
@@ -104,3 +108,12 @@ class ResultsCollectionViewController: UICollectionViewController {
   */
 
 }
+
+extension ResultsCollectionViewController: UICollectionViewDelegateFlowLayout {
+  
+  func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+    return CGSizeMake(180.0, 200.0)
+  }
+  
+}
+
