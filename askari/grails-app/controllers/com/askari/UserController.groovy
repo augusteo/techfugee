@@ -12,11 +12,7 @@ class UserController {
 	static responseFormats = ['json', 'xml']
 	static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-	@Transactional
-	def listMentors(){
-		User userInstance =User.dummyUser("Bob Test", true);
-		userInstance.save(flush:true)
-		
+	def listMentors(){		
 		def mentorList = User.findAllByIsMentor(true)
 		render mentorList as JSON
 		render status: OK
