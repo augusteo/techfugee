@@ -22,7 +22,7 @@ class MenteeSignUpViewController: UIViewController {
       
       print("Mentee did signup")
       
-      let mentee = EntityModel(entityType: EntityModel.MType.Mentor, id: "23123131", name: "Askari", title: "Technology", city: "Melbourne", state: "VIC", industry: "Technology", lookingFor: "Web Development", phone: "04321122322", bio: "4 years experience in web dev", email: "", password: ""sou)
+      let mentee = EntityModel(entityType: EntityModel.MType.Mentor, id: "23123131", name: "Askari", title: "Technology", city: "Melbourne", state: "VIC", industry: "Technology", lookingFor: "Web Development", phone: "04321122322", bio: "4 years experience in web dev", email: "", password: "")
       
       EntityManager.shareInstance.entity = mentee
       
