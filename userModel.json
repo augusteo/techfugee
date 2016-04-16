@@ -1,0 +1,14 @@
+{
+    "id"        : "stringstring",
+    "isMentor"  : true,
+    "name"      : "stringstring",
+    "title"     : "senior janitor",
+    "city"      : "Melbourne",
+    "state"     : "ACT/VIC/NSW/QLD/TAS/WA/NT",
+    "industry" : "stringstring",
+    "lookingFor": "long string string",
+    "bio"       : "longstringstringstring",
+    "photo"     : "https://askari.xyz/photos/url.jpg"
+    "email"     : "string"
+    "password"  : "string"
+}

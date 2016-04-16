@@ -10,27 +10,26 @@ import UIKit
 
 class SelectTypeViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+  override func viewDidLoad() {
+      super.viewDidLoad()
 
-      self.title = "Select Type"
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    self.title = "Select Type"
+      // Do any additional setup after loading the view.
+  }
+  
+  //MARK : Nav
+  
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    
+    EntityManager.shareInstance.entity = EntityModel(entityType: EntityModel.MType.Mentee, id: "", name: "", title: "", city: "", state: "", industry: "", lookingFor: "", language: "", phone: "", bio: "", email: "", password: "")
+    
+    if segue.identifier == "mentorSignUp" {
+      EntityManager.shareInstance.entity?.entityType = EntityModel.MType.Mentor
+    } else if segue.identifier == "menteeSignUp" {
+      EntityManager.shareInstance.entity?.entityType = EntityModel.MType.Mentee
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+  }
+  
+  
 }
