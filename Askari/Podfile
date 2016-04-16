@@ -4,6 +4,7 @@ use_frameworks!
 pod 'Alamofire'
 pod 'SwiftyJSON'
 pod 'Moya'
+pod 'Onboard'
 
 target 'Askari' do
 

@@ -1,27 +1,204 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2fv-Jd-Odp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Wpc-7f-Zcz">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Info View Controller-->
-        <scene sceneID="iEy-GB-Rex">
+        <!--Info-->
+        <scene sceneID="GY4-2S-h7Z">
             <objects>
-                <viewController id="2fv-Jd-Odp" customClass="InfoViewController" customModule="Askari" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="9Li-dd-yc6" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="xXK-cQ-mZ0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="kJa-ly-GTn">
+                            <rect key="frame" x="0.0" y="64" width="600" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="7ls-0y-lcl">
+                            <rect key="frame" x="0.0" y="196" width="600" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <sections>
+                            <tableViewSection id="tRE-eU-KUM">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Fkk-B7-YYw" style="IBUITableViewCellStyleDefault" id="inT-mi-FKS">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="inT-mi-FKS" id="XgE-wy-P6j">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fkk-B7-YYw">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Dk2-ZU-TAI" kind="show" id="CGz-7P-oZS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Rkl-nK-4kB" style="IBUITableViewCellStyleDefault" id="R8a-0T-UAJ">
+                                        <rect key="frame" x="0.0" y="108" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="R8a-0T-UAJ" id="QoZ-kP-VqL">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Terms &amp; Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rkl-nK-4kB">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="kkm-dC-nTe" kind="show" id="0IT-d9-PMF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="yBb-1f-ro5" style="IBUITableViewCellStyleDefault" id="lky-3S-WGk">
+                                        <rect key="frame" x="0.0" y="152" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lky-3S-WGk" id="6vN-6g-X2u">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Contact Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yBb-1f-ro5">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Y9V-cY-eZ0" kind="show" id="NBN-2v-MGm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="9Li-dd-yc6" id="hWt-Sd-4Is"/>
+                            <outlet property="delegate" destination="9Li-dd-yc6" id="s9b-Gn-pCA"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Info" id="VZD-aQ-zv2"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xuf-kG-2ii" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1160" y="345"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="M5S-x9-jcu">
+            <objects>
+                <viewController title="Contact" id="Y9V-cY-eZ0" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qEn-2N-eOH"/>
-                        <viewControllerLayoutGuide type="bottom" id="BWc-bV-IVm"/>
+                        <viewControllerLayoutGuide type="top" id="WCi-rj-ALc"/>
+                        <viewControllerLayoutGuide type="bottom" id="aLS-Ys-uEg"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wYU-kf-ipq">
+                    <view key="view" contentMode="scaleToFill" id="pMb-Vy-NuR">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KdC-X3-wfM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ftg-H2-iWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="339" y="391"/>
+            <point key="canvasLocation" x="1160" y="1052"/>
+        </scene>
+        <!--Terms-->
+        <scene sceneID="bKu-Ba-cmc">
+            <objects>
+                <viewController title="Terms" id="kkm-dC-nTe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fy8-o5-LwK"/>
+                        <viewControllerLayoutGuide type="bottom" id="bwJ-1k-X0d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I2L-23-HUo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Den-BE-g9e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="444"/>
+        </scene>
+        <!--Privacy Policy-->
+        <scene sceneID="83i-Bh-zWo">
+            <objects>
+                <viewController title="Privacy Policy" id="Dk2-ZU-TAI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jg8-DX-NfI"/>
+                        <viewControllerLayoutGuide type="bottom" id="51N-AI-YBa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V9J-8O-c2b">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0h-wz-8e8">
+                                <rect key="frame" x="20" y="72" width="560" height="520"/>
+                                <mutableString key="text">How is my Personal Information Collected? 
+The main way we collect personal information is through you directly or through your authorised representative.
+We sometimes collect personal information from a third party or from a publicly available source, but only if:
+you have consented to such collection or would reasonably expect us to collect your personal information in this way, or
+if it is necessary for a specific purpose such as the investigation of a privacy complaint.
+Your personal information may be collected either directly or through a third party through the following services that are used on our website:
+Payments via PayPal
+Google Analytics
+Contact forms
+User registration
+Mailing list
+How do you use my Personal Information?
+We only use personal information for the purposes for which we collected it – purposes which are directly related to one of our functions or activities that on the whole create a better user experience and product for you at www.myprivacypolicy.com.au.
+Is my Personal Information Stored Securely?
+We take steps to protect the personal information we hold against loss, unauthorised access, use, modification or disclosure, and against other misuse. Further to this, we do not disclose your personal information to any overseas entities, nor store that information anywhere outside of Australia.
+When the personal information that we collect is no longer required, we destroy or delete it in a secure manner.
+Can I Access or Change the Personal Information I give you?
+Yes, you can access the personal information that we hold about you, and you can ask us to correct it. You can email us at info@myprivacypolicy.com
+Our Obligations
+My Privacy Policy is bound by the Australian Privacy Principles in the Privacy Act. We care about our users and do everything we can to adhere to the 13 Australian Privacy Principles as per the OAIC guidelines.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1WZ-sS-y53" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="-283"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bRC-Zg-wOo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wpc-7f-Zcz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mHV-Iu-myy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9Li-dd-yc6" kind="relationship" relationship="rootViewController" id="Wyb-0V-9Ae"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bEY-zK-dao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="348" y="345"/>
         </scene>
     </scenes>
 </document>
