@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ShareProfileViewController: UIViewController {
 
@@ -28,11 +29,20 @@ class ShareProfileViewController: UIViewController {
     super.viewWillAppear(animated)
     refreshDetails()
   }
+  
+  func loadModel(model: EntityModel) {
+    profileImgView.kf_setImageWithURL(NSURL(string: model.photo)!, placeholderImage: UIImage(named: "profilePic"))
+    nameLbl.text = model.name
+    professionLbl.text = model.title
+    locationLbl.text = model.state
+  }
 
   func refreshDetails() {
     
     print(EntityManager.shareInstance.entity)
-    
+    let photoString = "https://i.imgur.com/472tmT2.jpg"
+    let photoUrl = NSURL(string: photoString)!
+    profileImgView.kf_setImageWithURL(photoUrl, placeholderImage: UIImage(named: "profilePic"))
     nameLbl.text = EntityManager.shareInstance.entity?.name
     professionLbl.text = EntityManager.shareInstance.getProfession()
     locationLbl.text = EntityManager.shareInstance.getLocation()

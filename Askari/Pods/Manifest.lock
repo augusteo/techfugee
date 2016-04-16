@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (3.3.1)
+  - IQKeyboardManagerSwift (4.0.1)
+  - Kingfisher (2.2.2)
   - Moya (6.4.0):
     - Moya/Core (= 6.4.0)
   - Moya/Core (6.4.0):
@@ -7,21 +9,28 @@ PODS:
     - Result (~> 2.0)
   - Onboard (2.1.9)
   - Result (2.0.0)
+  - SCLAlertView (0.5.2)
   - SwiftyJSON (2.3.2)
   - TextFieldEffects (1.2.0)
 
 DEPENDENCIES:
   - Alamofire
+  - IQKeyboardManagerSwift
+  - Kingfisher
   - Moya
   - Onboard
+  - SCLAlertView
   - SwiftyJSON
   - TextFieldEffects
 
 SPEC CHECKSUMS:
   Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  IQKeyboardManagerSwift: e92246955e21dad73ad9dc89b80adb134d8bb395
+  Kingfisher: 7e8de5b0cf7b5dc8ec559d193029a0859df93ef1
   Moya: 4d526954c8afd79820991393d40d7d8af756ceee
   Onboard: 4d92c763ed15f939071dec12e87ed9e8dc036746
   Result: 9e75e1111c774c6ac594e14907b15057053a7959
+  SCLAlertView: 66873759027a98f891b6ba9042d75db9082abca2
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
 

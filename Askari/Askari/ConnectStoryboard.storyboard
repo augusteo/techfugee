@@ -138,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="1965" y="361"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Connect-->
         <scene sceneID="scw-zy-Gz6">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="noS-xd-CvZ" sceneMemberID="viewController">
+                <navigationController title="Connect" automaticallyAdjustsScrollViewInsets="NO" id="noS-xd-CvZ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4wN-Tf-Ntp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

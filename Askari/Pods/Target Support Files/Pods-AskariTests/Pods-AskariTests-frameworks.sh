@@ -85,17 +85,23 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-AskariTests/Alamofire.framework"
+  install_framework "Pods-AskariTests/IQKeyboardManagerSwift.framework"
+  install_framework "Pods-AskariTests/Kingfisher.framework"
   install_framework "Pods-AskariTests/Moya.framework"
   install_framework "Pods-AskariTests/Onboard.framework"
   install_framework "Pods-AskariTests/Result.framework"
+  install_framework "Pods-AskariTests/SCLAlertView.framework"
   install_framework "Pods-AskariTests/SwiftyJSON.framework"
   install_framework "Pods-AskariTests/TextFieldEffects.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-AskariTests/Alamofire.framework"
+  install_framework "Pods-AskariTests/IQKeyboardManagerSwift.framework"
+  install_framework "Pods-AskariTests/Kingfisher.framework"
   install_framework "Pods-AskariTests/Moya.framework"
   install_framework "Pods-AskariTests/Onboard.framework"
   install_framework "Pods-AskariTests/Result.framework"
+  install_framework "Pods-AskariTests/SCLAlertView.framework"
   install_framework "Pods-AskariTests/SwiftyJSON.framework"
   install_framework "Pods-AskariTests/TextFieldEffects.framework"
 fi

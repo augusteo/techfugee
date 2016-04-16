@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>IQKeyboardManagerSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Moya.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -39,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SCLAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,12 +67,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>550084149C5EAFC9E01C38727F1E8D84</key>
+		<key>1520003FEBEC114D6C84F832AFEDB994</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6BD93CE3F7AC4DACC32BFA2F33E00861</key>
+		<key>264F7F938C23B5FAABAB91B682F6A082</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3578AB3D9B679BC8D5BBACC923062031</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>51A241CC7008E20DE863904905DF73BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,17 +97,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8AE70B46BE1DDDCEDBB6BE1B1422C572</key>
+		<key>8F701A1EF3156BEA742DB534B386A98D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>97EBC12220D0943D7AADA3ED3C5483EB</key>
+		<key>BF5388C4345FC67C8056BE0AD854E403</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C3767F7EFA1DC031885248E2885FD764</key>
+		<key>C4BC628BCDEA29446EB6814023A064B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -93,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>D7FF48F3092783E4E42B336F0DEF2D1A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F91226101ECE8FCFD221A3EC54481F82</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,16 +7,18 @@
 //
 
 import UIKit
+import SCLAlertView
 
 class RequestCell: UITableViewCell {
   @IBOutlet weak var profilePic: UIImageView!
   @IBOutlet weak var infoLabel: UILabel!
   
   @IBAction func ignoreAction(sender: AnyObject) {
-  
+    SCLAlertView().showNotice("Notice", subTitle: "you have ignored this person")
   }
   
   @IBAction func confirmAction(sender: AnyObject) {
-
+    SCLAlertView().showInfo("Confirmed", subTitle: "You have confirmed this connection")
+    
   }
 }

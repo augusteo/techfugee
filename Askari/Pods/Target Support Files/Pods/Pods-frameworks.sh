@@ -85,17 +85,23 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/Alamofire.framework"
+  install_framework "Pods/IQKeyboardManagerSwift.framework"
+  install_framework "Pods/Kingfisher.framework"
   install_framework "Pods/Moya.framework"
   install_framework "Pods/Onboard.framework"
   install_framework "Pods/Result.framework"
+  install_framework "Pods/SCLAlertView.framework"
   install_framework "Pods/SwiftyJSON.framework"
   install_framework "Pods/TextFieldEffects.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/Alamofire.framework"
+  install_framework "Pods/IQKeyboardManagerSwift.framework"
+  install_framework "Pods/Kingfisher.framework"
   install_framework "Pods/Moya.framework"
   install_framework "Pods/Onboard.framework"
   install_framework "Pods/Result.framework"
+  install_framework "Pods/SCLAlertView.framework"
   install_framework "Pods/SwiftyJSON.framework"
   install_framework "Pods/TextFieldEffects.framework"
 fi

@@ -26,6 +26,7 @@ class ResultsCollectionViewController: UICollectionViewController {
 
       // Register cell classes
       self.collectionView?.registerNib(UINib(nibName: "ResultCollectionCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
+    self.collectionView?.backgroundColor = UIColor.whiteColor()
 
       // Do any additional setup after loading the view.
   }
@@ -114,6 +115,10 @@ extension ResultsCollectionViewController: UICollectionViewDelegateFlowLayout {
   func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
     return CGSizeMake(180.0, 200.0)
   }
-  
+ 
+  override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    let sharedProfileVC = ShareProfileViewController(nibName: "ShareProfileViewController", bundle: nil)
+    navigationController?.pushViewController(sharedProfileVC, animated: true)
+  }
 }
 

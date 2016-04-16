@@ -84,16 +84,16 @@ class SignUpTableViewController: UITableViewController {
   }
 
   @IBAction func didSelectSignUp(sender: AnyObject) {
-    EntityManager.shareInstance.entity?.name = self.nameTxtField.text!
-    EntityManager.shareInstance.entity?.title = self.professionTxtField.text!
-    EntityManager.shareInstance.entity?.language = self.languageTxtField.text!
-    EntityManager.shareInstance.entity?.city = self.cityTxtField.text!
-    EntityManager.shareInstance.entity?.state = self.stateTxtField.text!
-    
-    EntityManager.shareInstance.entity?.lookingFor = self.lookingForTxtField.text!
-    EntityManager.shareInstance.entity?.bio = self.bioTxtField.text!
-    EntityManager.shareInstance.entity?.email = self.emailTxtField.text!
-    EntityManager.shareInstance.entity?.password = self.passwordTxtField.text!
+//    EntityManager.shareInstance.entity?.name = self.nameTxtField.text!
+//    EntityManager.shareInstance.entity?.title = self.professionTxtField.text!
+//    EntityManager.shareInstance.entity?.language = self.languageTxtField.text!
+//    EntityManager.shareInstance.entity?.city = self.cityTxtField.text!
+//    EntityManager.shareInstance.entity?.state = self.stateTxtField.text!
+//    
+//    EntityManager.shareInstance.entity?.lookingFor = self.lookingForTxtField.text!
+//    EntityManager.shareInstance.entity?.bio = self.bioTxtField.text!
+//    EntityManager.shareInstance.entity?.email = self.emailTxtField.text!
+//    EntityManager.shareInstance.entity?.password = self.passwordTxtField.text!
     
     self.dismissViewControllerAnimated(true) {
       

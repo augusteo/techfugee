@@ -7,16 +7,17 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
-
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
     UIView.appearance().tintColor = UIColor(red:0.11, green:0.53, blue:0.15, alpha:1.00)
+    IQKeyboardManager.sharedManager().enable = true
     return true
   }
 

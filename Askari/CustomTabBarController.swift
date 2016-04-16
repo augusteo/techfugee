@@ -24,7 +24,9 @@ class CustomTabBarController: UITabBarController {
       showOnboarding()
     }
     
-    showSignUpModal()
+    if !EntityManager.shareInstance.isLoggedIn() {
+      showSignUpModal()
+    }
   }
   
   func showOnboarding() {

@@ -6,6 +6,9 @@ pod 'SwiftyJSON'
 pod 'Moya'
 pod 'Onboard'
 pod 'TextFieldEffects'
+pod 'Kingfisher'
+pod 'SCLAlertView'
+pod 'IQKeyboardManagerSwift'
 
 target 'Askari' do
 

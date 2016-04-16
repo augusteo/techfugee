@@ -27,5 +27,6 @@ struct EntityModel {
   var bio: String?
   var email: String
   var password: String
+  var photo: String
   
 }

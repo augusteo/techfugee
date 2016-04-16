@@ -11,7 +11,7 @@ import Moya
 import Alamofire
 import SwiftyJSON
 
-let serviceBaseUrl = "https://www.askari.xyz"
+let serviceBaseUrl = "https://api.askari.xyz/api/"
 
 private extension String {
   var URLEscapedString: String {

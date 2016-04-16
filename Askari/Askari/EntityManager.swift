@@ -10,6 +10,10 @@ class EntityManager {
   static let shareInstance = EntityManager()
   var entity: EntityModel?
   
+  func isLoggedIn() -> Bool {
+    return entity != nil
+  }
+  
   func getProfession() -> String {
     
     guard entity?.title != nil || entity?.industry != nil else {
