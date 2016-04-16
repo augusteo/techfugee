@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CE1E4F81CC1BC4400B46B0D /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE1E4F71CC1BC4400B46B0D /* Onboard.storyboard */; };
 		1CE1E4FA1CC1BEA100B46B0D /* PrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1E4F91CC1BEA000B46B0D /* PrivacyVC.swift */; };
 		1CE1E4FC1CC1BEAB00B46B0D /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1E4FB1CC1BEAB00B46B0D /* TermsVC.swift */; };
 		1CE1E4FE1CC1BEB300B46B0D /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1E4FD1CC1BEB300B46B0D /* ContactVC.swift */; };
@@ -48,7 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CE1E4F71CC1BC4400B46B0D /* Onboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboard.storyboard; sourceTree = "<group>"; };
 		1CE1E4F91CC1BEA000B46B0D /* PrivacyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyVC.swift; sourceTree = "<group>"; };
 		1CE1E4FB1CC1BEAB00B46B0D /* TermsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
 		1CE1E4FD1CC1BEB300B46B0D /* ContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 		1CE1E4F61CC1BC3400B46B0D /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				1CE1E4F71CC1BC4400B46B0D /* Onboard.storyboard */,
 			);
 			name = Onboarding;
 			sourceTree = "<group>";
@@ -347,7 +344,6 @@
 				6A52EB3D1CC1177A00A6BC5C /* Assets.xcassets in Resources */,
 				6A52EB3B1CC1177A00A6BC5C /* Main.storyboard in Resources */,
 				6A52EB651CC12E5400A6BC5C /* InfoStoryboard.storyboard in Resources */,
-				1CE1E4F81CC1BC4400B46B0D /* Onboard.storyboard in Resources */,
 				6A52EB5F1CC11AF400A6BC5C /* ProfileStoryboard.storyboard in Resources */,
 				6A52EB6F1CC131D500A6BC5C /* ResultsStoryboard.storyboard in Resources */,
 				6A52EB771CC18FC500A6BC5C /* SignUpStoryboard.storyboard in Resources */,
