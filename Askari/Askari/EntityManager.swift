@@ -10,4 +10,22 @@ class EntityManager {
   static let shareInstance = EntityManager()
   var entity: EntityModel?
   
+  func getProfession() -> String {
+    
+    guard entity?.title != nil || entity?.industry != nil else {
+      return "Software Developer / Technology"
+    }
+    
+    return "\(entity!.title) - \(entity!.industry)"
+  }
+  
+  func getLocation() -> String {
+    
+    guard entity?.state != nil || entity?.city != nil else {
+      return "VIC / Melbourne"
+    }
+    
+    return "\(entity!.state) - \(entity!.city)"
+  }
+  
 }

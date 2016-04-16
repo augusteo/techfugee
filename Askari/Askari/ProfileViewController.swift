@@ -15,6 +15,11 @@ class ProfileViewController: UIViewController {
     self.title = "Profile"
     
       // Do any additional setup after loading the view.
+    let sharedProfileVC = ShareProfileViewController(nibName: "ShareProfileViewController", bundle: nil)
+    sharedProfileVC.view.frame = self.view.bounds
+    self.addChildViewController(sharedProfileVC)
+    self.view.addSubview(sharedProfileVC.view)
+    
   }
 
   override func didReceiveMemoryWarning() {

@@ -22,6 +22,7 @@ struct EntityModel {
   var state: String
   var industry: String
   var lookingFor: String
+  var language: String
   var phone: String
   var bio: String?
   var email: String
