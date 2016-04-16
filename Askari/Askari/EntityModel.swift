@@ -15,12 +15,17 @@ struct EntityModel {
   
   var entityType: MType
   
+  var id: String
   var name: String
+  var title: String
+  var city: String
+  var state: String
   var industry: String
-  var location: String
-  var company: String?
-  var position: String?
-  var email: String
+  var lookingFor: String
+  var language: String
   var phone: String
+  var bio: String?
+  var email: String
+  var password: String
   
 }

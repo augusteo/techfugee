@@ -11,5 +11,6 @@
     "lookingFor": "long string string",
     "bio"       : "longstringstringstring",
     "photo"     : "https://askari.xyz/photos/url.jpg",
+    "email"     : "string",
     "language"  : "lalala"
 }

@@ -8,7 +8,7 @@ import static org.springframework.http.HttpStatus.*
 
 @Transactional(readOnly = true)
 class IndustryController {
-	
+	/*
 	static responseFormats = ['json', 'xml']
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
@@ -103,4 +103,5 @@ class IndustryController {
             '*'{ render status: NOT_FOUND }
         }
     }
+    */
 }

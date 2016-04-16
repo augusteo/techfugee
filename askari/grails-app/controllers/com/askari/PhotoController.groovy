@@ -6,7 +6,13 @@ import static org.springframework.http.HttpStatus.*
 
 class PhotoController {
 
-	def uploadPhoto(){
+	def uploadPhoto(User user){
+		
+		if (user==null){
+			log.error("User does not exist");
+			response.status = NOT_ACCEPTABLE.value()
+			return
+		}
 		
 		java.util.List<MultipartFile> files = request.getFile('file')
 		
@@ -32,8 +38,10 @@ class PhotoController {
 		
 		String uri = urlPath+"/"+filename;
 		HashMap<String,String> responseDict = new HashMap<String,String>()
-		responseDict.put("url", fileDest)
 		
+		user.setPhoto(uri)
+		
+		responseDict.put("url", uri)
 		render responseDict as JSON
 		render status: OK
 	}
