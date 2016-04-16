@@ -15,8 +15,10 @@ class MentorViewModel {
   
   func fetchMentees(failure onFail: (NSError -> ())? = nil, success onSuccess: (() -> ())? = nil) {
     
-    mSearch(param: SearchParam.MenteeIndustry(""), failure: { error in
-//      print("\(error.localizedDescription)")
+    let param = EntityManager.shareInstance.entity?.entityType == EntityModel.MType.Mentee ? SearchParam.MenteeIndustry("") : SearchParam.MentorIndustry("")
+    let entityType = EntityManager.shareInstance.entity?.entityType == EntityModel.MType.Mentee ? EntityModel.MType.Mentor : EntityModel.MType.Mentee
+    
+    mSearch(param: param, failure: { error in
       onFail!(error)
       }) { response in
         
@@ -24,7 +26,7 @@ class MentorViewModel {
         for item in items {
           let dict = item.dictionaryObject
           
-          let entity = EntityModel(entityType: EntityModel.MType.Mentee,
+          let entity = EntityModel(entityType: entityType,
                                    id: dict!["id"] as! NSNumber,
                                    name: dict!["name"] as! String,
                                    title: dict!["title"] as! String,
