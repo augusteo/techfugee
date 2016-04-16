@@ -13,17 +13,26 @@ class UserController {
 	static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
 	def listMentors(){
-		
-		if (request.industry)
-		
-		def mentorList = User.findAllByIsMentor(true)
-		render mentorList as JSON
+		def userList = null
+		if (params.industry!=null){
+			userList = User.findAllByIsMentorAndIndustry(true, params.industry)
+		} else{
+			userList = User.findAllByIsMentor(true)
+		}
+		render userList as JSON
 		render status: OK
 	}
 
+	
+	
 	def listMentees(){
-		def mentorList = User.findAllByIsMentor(false)
-		render mentorList as JSON
+		def userList = null
+		if (params.industry!=null){
+			userList = User.findAllByIsMentorAndIndustry(false, params.industry)
+		} else{
+			userList = User.findAllByIsMentor(false)
+		}
+		render userList as JSON
 		render status: OK
 	}
 	
@@ -54,6 +63,15 @@ class UserController {
 		userInstance = userInstance.save(flush : true, failOnError: true)
 
 		render userInstance as JSON
+		render status: OK
+	}
+	
+	@Transactional
+	def makeFakeUser(){
+		User user = User.dummyUser("Bob Test", false);
+		user.save(flush : true)
+		
+		render user as JSON
 		render status: OK
 	}
 	
