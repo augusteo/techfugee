@@ -67,11 +67,9 @@ class UserController {
 	}
 	
 	@Transactional
-	def makeFakeUser(){
-		User user = User.dummyUser("Bob Test", false);
-		user.save(flush : true)
-		
-		render user as JSON
+	def makeFakeUsers(){
+		DummyDataUtil.addDummyUsers()
+
 		render status: OK
 	}
 	

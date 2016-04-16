@@ -8,7 +8,13 @@ class UrlMappings {
 			"/user"(controller: "user", action: 'readUser', method: "GET")
 			"/login"(controller: "login", action: 'login', method: "POST")
 			"/photo/$id?"(controller: "photo", action: 'uploadPhoto', method: "POST")
-			"/addFakeUser"(controller: "user", action: 'makeFakeUser', method: "GET")
+			"/addFakeUsers"(controller: "user", action: 'makeFakeUsers', method: "GET")
+			"/connect/$myId?/confirmed"(controller: "connection", action: 'listConfirmedConnectionsForUser', method: "GET")
+			"/connect/$myId?/unconfirmed"(controller: "connection", action: 'listNonConfirmedConnectionsForUser', method: "GET")
+			"/connect/$myId?"(controller: "connection", action: 'listConnectionsForUser', method: "GET")
+			"/connect/$id?"(controller: "connection", action: 'removeConnection', method: "DELETE")
+			"/connect/confirm/$id?"(controller: "connection", action: 'confirmConnection', method: "GET")
+			
 		}
 		"/"(view:"/index")
 		"500"(view:'/error')
