@@ -12,7 +12,10 @@ class UserController {
 	static responseFormats = ['json', 'xml']
 	static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-	def listMentors(){		
+	def listMentors(){
+		
+		if (request.industry)
+		
 		def mentorList = User.findAllByIsMentor(true)
 		render mentorList as JSON
 		render status: OK
@@ -50,7 +53,7 @@ class UserController {
 
 		userInstance = userInstance.save(flush : true, failOnError: true)
 
-		render userInstance2 as JSON
+		render userInstance as JSON
 		render status: OK
 	}
 	

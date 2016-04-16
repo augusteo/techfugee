@@ -6,10 +6,7 @@ import static org.springframework.http.HttpStatus.*
 
 class PhotoController {
 
-	def uploadPhoto(){
-		
-		def userId = request.userId
-		User user = User.findById(userId)
+	def uploadPhoto(User user){
 		
 		if (user==null){
 			log.error("User does not exist");
