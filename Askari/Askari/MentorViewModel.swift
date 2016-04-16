@@ -13,13 +13,13 @@ import SwiftyJSON
 class MentorViewModel {
   var modelList = [EntityModel]()
   
-  init() {
+  func fetchMentees() {
     Alamofire.request(.GET, serviceBaseUrl+"mentees")
-    .responseJSON { response in
-      if let value = response.result.value {
-        let json = JSON(value)
-        print("JSON: \(json)")
-      }
+      .responseJSON { response in
+        if let value = response.result.value {
+          let json = JSON(value)
+          print("JSON: \(json)")
+        }
     }
   }
 }

@@ -27,7 +27,9 @@ class ShareProfileViewController: UIViewController {
   
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
-    refreshDetails()
+    if EntityManager.shareInstance.isLoggedIn() {
+      refreshDetails()
+    }
   }
   
   func loadModel(model: EntityModel) {

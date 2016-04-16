@@ -12,6 +12,8 @@ private let reuseIdentifier = "resultCell"
 
 class ResultsCollectionViewController: UICollectionViewController {
 
+  var viewModel = MentorViewModel()
+  
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     self.tabBarItem.title = "Mentor"
@@ -20,7 +22,7 @@ class ResultsCollectionViewController: UICollectionViewController {
   override func viewDidLoad() {
       super.viewDidLoad()
     
-    
+      viewModel.fetchMentees()
       // Uncomment the following line to preserve selection between presentations
       // self.clearsSelectionOnViewWillAppear = false
 
