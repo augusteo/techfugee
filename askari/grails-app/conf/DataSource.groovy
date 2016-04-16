@@ -1,10 +1,15 @@
 dataSource {
     pooled = true
     jmxExport = true
-    driverClassName = "org.h2.Driver"
-    username = "sa"
-    password = ""
+	driverClassName = "com.mysql.jdbc.Driver"
+	//driverClassName = "org.h2.Driver"
+	//dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
+    username = "askari"
+    password = "askariapp"
+	//username = "sa"
+	//password = ""
 }
+/*
 hibernate {
     cache.use_second_level_cache = true
     cache.use_query_cache = false
@@ -13,14 +18,24 @@ hibernate {
     singleSession = true // configure OSIV singleSession mode
     flush.mode = 'manual' // OSIV session flush mode outside of transactional context
 }
+*/
 
 // environment specific settings
 environments {
     development {
+		/*
         dataSource {
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
         }
+        */
+
+		dataSource {
+			dbCreate = "create-drop"
+			url = "jdbc:mysql://localhost:3306/askari?useUnicode=yes&characterEncoding=UTF-8"
+			username = "askari"
+			password = "askariapp"
+		}
     }
     test {
         dataSource {
@@ -63,9 +78,9 @@ environments {
 		*/
 		dataSource {
 			dbCreate = "update"
-			url = "jdbc:mysql://localhost/PRODDBNAME?useUnicode=yes&characterEncoding=UTF-8"
-			username = "prod"
-			password = "prodpw"
+			url = "jdbc:mysql://localhost:3306/askari?useUnicode=yes&characterEncoding=UTF-8"
+			username = "askari"
+			password = "askariapp"
 		}
 		
     }

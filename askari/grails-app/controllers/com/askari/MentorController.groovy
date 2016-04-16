@@ -6,6 +6,9 @@ import grails.transaction.Transactional
 @Transactional(readOnly = true)
 class MentorController {
 
+	/*
+	def mentorService
+	
 	static responseFormats = ['json', 'xml']
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
@@ -75,10 +78,15 @@ class MentorController {
     @Transactional
     def delete(Mentor MentorInstance) {
 
+		MentoreeService.del
+		
         if (MentorInstance == null) {
             notFound()
             return
         }
+		
+		
+		
 
         MentorInstance.delete flush:true
 
@@ -100,4 +108,5 @@ class MentorController {
             '*'{ render status: NOT_FOUND }
         }
     }
+    */
 }

@@ -2,102 +2,66 @@ package com.askari
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
+import grails.converters.JSON
 
 @Transactional(readOnly = true)
 class MentoreeController {
 
+	/*
+	def mentoreeService
+	
 	static responseFormats = ['json', 'xml']
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-    def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Mentoree.list(params), model:[mentoreeInstanceCount: Mentoree.count()]
+    def index() {
+		List<Mentoree> mentoreeList = mentoreeService.readAll()
+		
+		render mentoreeList as JSON
+		render status: OK
     }
 
     def show(Mentoree mentoreeInstance) {
-        respond mentoreeInstance
+		if (mentoreeInstance == null) {
+			render status: NOT_FOUND
+			return
+		}
+
+		render mentoreeInstance as JSON
+		render status: OK
     }
 
-    def create() {
-        respond new Mentoree(params)
+	
+    def create(Mentoree mentoreeInstance) {
+		mentoreeService.create(mentoreeInstance)
     }
-
-    @Transactional
-    def save(Mentoree mentoreeInstance) {
-        if (mentoreeInstance == null) {
-            notFound()
-            return
-        }
-
-        if (mentoreeInstance.hasErrors()) {
-            respond mentoreeInstance.errors, view:'create'
-            return
-        }
-
-        mentoreeInstance.save flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'mentoree.label', default: 'Mentoree'), mentoreeInstance.id])
-                redirect mentoreeInstance
-            }
-            '*' { respond mentoreeInstance, [status: CREATED] }
-        }
-    }
-
-    def edit(Mentoree mentoreeInstance) {
-        respond mentoreeInstance
-    }
+	
 
     @Transactional
     def update(Mentoree mentoreeInstance) {
         if (mentoreeInstance == null) {
-            notFound()
+            render status: NOT_FOUND
             return
         }
 
-        if (mentoreeInstance.hasErrors()) {
-            respond mentoreeInstance.errors, view:'edit'
-            return
-        }
+		mentoreeInstance = mentoreeService.update(mentoreeInstance)
 
-        mentoreeInstance.save flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'Mentoree.label', default: 'Mentoree'), mentoreeInstance.id])
-                redirect mentoreeInstance
-            }
-            '*'{ respond mentoreeInstance, [status: OK] }
-        }
+		render mentoreeInstance as JSON
+		render status: OK
     }
 
+	
     @Transactional
     def delete(Mentoree mentoreeInstance) {
 
         if (mentoreeInstance == null) {
-            notFound()
+            render status: NOT_FOUND
             return
         }
 
-        mentoreeInstance.delete flush:true
+		mentoreeService.delete(mentoreeInstance)
+		
+		render status: OK
+	}
+	*/
 
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.deleted.message', args: [message(code: 'Mentoree.label', default: 'Mentoree'), mentoreeInstance.id])
-                redirect action:"index", method:"GET"
-            }
-            '*'{ render status: NO_CONTENT }
-        }
-    }
-
-    protected void notFound() {
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.not.found.message', args: [message(code: 'mentoree.label', default: 'Mentoree'), params.id])
-                redirect action: "index", method: "GET"
-            }
-            '*'{ render status: NOT_FOUND }
-        }
-    }
 }
