@@ -6,6 +6,7 @@ class UrlMappings {
 			"/mentees"(controller: "user", action: 'listMentees', method: "GET")
 			"/user"(controller: "user", action: 'createUser', method: "POST")
 			"/user"(controller: "user", action: 'readUser', method: "GET")
+			"/login"(controller: "login", action: 'login', method: "POST")
 		}
 		"/"(view:"/index")
 		"500"(view:'/error')

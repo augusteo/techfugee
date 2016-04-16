@@ -14,32 +14,7 @@ class User {
 	String bio
 	String photo
 	String industry
-	
-	public User(String email,
-	String password,
-	Boolean isMentor,
-	String name,
-	String title,
-	String city,
-	String state,
-	String mainField,
-	String lookingFor,
-	String bio,
-	String photo,
-	String industry){
-		this.email = email
-		this.password = password
-		this.isMentor = isMentor
-		this.name = name
-		this.title = title
-		this.city = city
-		this.state = state
-		this.mainField = mainField
-		this.lookingFor = lookingFor
-		this.bio = bio
-		this.photo = photo
-		this.industry = industry
-	}
+	String language
 	
 	public static User dummyUser(String name, boolean isMentor){
 		User user = new User();
@@ -56,6 +31,7 @@ class User {
 		user.bio = "bio"
 		user.photo = "photo"
 		user.industry = "Industry"
+		user.language = "English"
 		return user
 	}
 	
