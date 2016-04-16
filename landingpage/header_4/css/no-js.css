@@ -1,0 +1,76 @@
+.carousel-slider > div, #preloader, .affa-team-row .affa-team-col { display:none; }
+.carousel-slider > div:first-child, .carousel-slider.gallery-slider > div:nth-child(2), .carousel-slider.gallery-slider > div:nth-child(3), .carousel-slider.gallery-slider > div:nth-child(4), .carousel-slider.affa-team-row > div:nth-child(2), .carousel-slider.affa-team-row > div:nth-child(3), .affa-team-row .affa-team-col:first-child, .affa-team-row .affa-team-col:nth-child(2), .affa-team-row .affa-team-col:nth-child(3) { display:block; }
+
+.carousel-slider.gallery-slider {
+	width:1170px;
+	margin:0px auto;
+}
+.carousel-slider.gallery-slider:before, .carousel-slider.gallery-slider:after {
+	display:table;
+	content:'';
+}
+.carousel-slider.gallery-slider:after { clear:both; }
+.carousel-slider.gallery-slider > div {
+	float:left;
+	width:25%;
+	padding:0px 15px;
+}
+
+.animation { visibility:visible; }
+
+.stickem-container, #header { opacity:1; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.carousel-slider.gallery-slider { width:970px; }
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.carousel-slider.gallery-slider { width:750px; }
+	
+}
+
+@media (max-width: 1439px) {
+	
+	.affa-team-row .affa-team-col { width:50%; }
+	.affa-team-row .affa-team-col:nth-child(3) { display:none !important; }
+	
+}
+
+@media (max-width: 991px) {
+	
+	.affa-team-row .affa-team-col { width:100%; }
+	.affa-team-row .affa-team-col:nth-child(2) { display:none !important; }
+	
+}
+
+@media (max-width: 767px) {
+	
+	.carousel-slider.gallery-slider { width:auto; }
+	.carousel-slider.gallery-slider > div {
+		float:none;
+		width:auto;
+	}
+	.carousel-slider.gallery-slider > div:nth-child(2), .carousel-slider.gallery-slider > div:nth-child(3), .carousel-slider.gallery-slider > div:nth-child(4) { display:none; }
+	
+	
+	.affa-team-row .affa-team-col { width:33.33%; }
+	.affa-team-row .affa-team-col:nth-child(2), .affa-team-row .affa-team-col:nth-child(3) { display:block !important; }
+	
+}
+
+@media (max-width: 539px) {
+	
+	.affa-team-row .affa-team-col { width:50%; }
+	.affa-team-row .affa-team-col:nth-child(3) { display:none !important; }
+	
+}
+
+@media (max-width: 339px) {
+	
+	.affa-team-row .affa-team-col { width:100%; }
+	.affa-team-row .affa-team-col:nth-child(2) { display:none !important; }
+	
+}
