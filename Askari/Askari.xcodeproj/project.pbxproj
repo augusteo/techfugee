@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C520B1B1CC2215C00058B4F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C520B1A1CC2215C00058B4F /* LoginVC.swift */; };
 		1CE6B65E1CC2114300B31C04 /* ConfirmedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6B65C1CC2114300B31C04 /* ConfirmedCell.swift */; };
 		1CE6B65F1CC2114300B31C04 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6B65D1CC2114300B31C04 /* RequestCell.swift */; };
 		1CE6B6611CC2114E00B31C04 /* LiveChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6B6601CC2114E00B31C04 /* LiveChatVC.swift */; };
@@ -24,7 +25,7 @@
 		6A52EB711CC1325800A6BC5C /* ResultsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB701CC1325800A6BC5C /* ResultsCollectionViewController.swift */; };
 		6A52EB731CC1327600A6BC5C /* ResultsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB721CC1327600A6BC5C /* ResultsDetailViewController.swift */; };
 		6A52EB771CC18FC500A6BC5C /* SignUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB761CC18FC500A6BC5C /* SignUpStoryboard.storyboard */; };
-		6A52EB791CC18FEE00A6BC5C /* SelectTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB781CC18FEE00A6BC5C /* SelectTypeViewController.swift */; };
+		6A52EB791CC18FEE00A6BC5C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB781CC18FEE00A6BC5C /* SignUpVC.swift */; };
 		6A52EB7D1CC190FF00A6BC5C /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB7C1CC190FF00A6BC5C /* CustomTabBarController.swift */; };
 		6A6736451CC1C9F700E0646C /* SignUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6736441CC1C9F700E0646C /* SignUpTableViewController.swift */; };
 		6A67364A1CC1DD8600E0646C /* ShareProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6736481CC1DD8600E0646C /* ShareProfileViewController.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C520B1A1CC2215C00058B4F /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		1CE6B65C1CC2114300B31C04 /* ConfirmedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmedCell.swift; sourceTree = "<group>"; };
 		1CE6B65D1CC2114300B31C04 /* RequestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
 		1CE6B6601CC2114E00B31C04 /* LiveChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveChatVC.swift; sourceTree = "<group>"; };
@@ -73,7 +75,7 @@
 		6A52EB701CC1325800A6BC5C /* ResultsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCollectionViewController.swift; sourceTree = "<group>"; };
 		6A52EB721CC1327600A6BC5C /* ResultsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsDetailViewController.swift; sourceTree = "<group>"; };
 		6A52EB761CC18FC500A6BC5C /* SignUpStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUpStoryboard.storyboard; sourceTree = "<group>"; };
-		6A52EB781CC18FEE00A6BC5C /* SelectTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTypeViewController.swift; sourceTree = "<group>"; };
+		6A52EB781CC18FEE00A6BC5C /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		6A52EB7C1CC190FF00A6BC5C /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = ../CustomTabBarController.swift; sourceTree = "<group>"; };
 		6A6736441CC1C9F700E0646C /* SignUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTableViewController.swift; sourceTree = "<group>"; };
 		6A6736481CC1DD8600E0646C /* ShareProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareProfileViewController.swift; sourceTree = "<group>"; };
@@ -161,8 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				6A52EB761CC18FC500A6BC5C /* SignUpStoryboard.storyboard */,
-				6A52EB781CC18FEE00A6BC5C /* SelectTypeViewController.swift */,
+				6A52EB781CC18FEE00A6BC5C /* SignUpVC.swift */,
 				6A6736441CC1C9F700E0646C /* SignUpTableViewController.swift */,
+				1C520B1A1CC2215C00058B4F /* LoginVC.swift */,
 			);
 			name = SignUp;
 			sourceTree = "<group>";
@@ -474,7 +477,8 @@
 				6A52EB7D1CC190FF00A6BC5C /* CustomTabBarController.swift in Sources */,
 				6AE27E0B1CC19D030010AD09 /* EntityManager.swift in Sources */,
 				6AE27E0D1CC19D760010AD09 /* EntityModel.swift in Sources */,
-				6A52EB791CC18FEE00A6BC5C /* SelectTypeViewController.swift in Sources */,
+				1C520B1B1CC2215C00058B4F /* LoginVC.swift in Sources */,
+				6A52EB791CC18FEE00A6BC5C /* SignUpVC.swift in Sources */,
 				1CE6B65F1CC2114300B31C04 /* RequestCell.swift in Sources */,
 				6AA418531CC1A55A0075DB00 /* AskariAPI.swift in Sources */,
 				6A52EB671CC1311D00A6BC5C /* ProfileViewController.swift in Sources */,

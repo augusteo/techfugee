@@ -27,5 +27,4 @@ class EntityManager {
     
     return "\(entity!.state) - \(entity!.city)"
   }
-  
 }

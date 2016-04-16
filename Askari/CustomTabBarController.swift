@@ -38,9 +38,9 @@ class CustomTabBarController: UITabBarController {
   }
   
   func generatePages() -> [OnboardingContentViewController] {
-    let page1 = OnboardingContentViewController(title: "Welcome to Askari", body: "Where mentee and mentors connect to help each others", image: nil, buttonText: nil, action: nil)
-    let page2 = OnboardingContentViewController(title: "Your own profile", body: "Register with your bio, industry, and what are you looking for", image: nil, buttonText: nil, action: nil)
-    let page3 = OnboardingContentViewController(title: "Connect", body: "Find mentors or mentee and connect with them personally", image: nil, buttonText: "Get Started", action: {
+    let page1 = OnboardingContentViewController(title: "Welcome to Askari", body: "Where mentee and mentors connect to help each others", image: UIImage(named: "onboard1"), buttonText: nil, action: nil)
+    let page2 = OnboardingContentViewController(title: "Your own profile", body: "Register with your bio, industry, and what are you looking for", image: UIImage(named: "onboard2"), buttonText: nil, action: nil)
+    let page3 = OnboardingContentViewController(title: "Connect", body: "Find mentors or mentee and connect with them personally", image: UIImage(named: "onboard3"), buttonText: "Get Started", action: {
       NSUserDefaults.standardUserDefaults().setBool(true, forKey: "hasBeenOnboarded")
       self.dismissViewControllerAnimated(true, completion: nil)
     })
