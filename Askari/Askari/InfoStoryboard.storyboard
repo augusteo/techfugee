@@ -129,6 +129,33 @@
                     <view key="view" contentMode="scaleToFill" id="I2L-23-HUo">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Km0-Zk-rU0">
+                                <rect key="frame" x="20" y="72" width="560" height="520"/>
+                                <mutableString key="text">Definitions
+Company: the Owner of the Website to which the Privacy Policy template refers. 
+Privacy Policy template: the document containing a proposed privacy policy for the User’s Website drawn up on the basis of User selected sections and pre-defined sections by the Company. 
+Service: a service or product offered to the User by My Privacy Policy. 
+User: a physical or legal person that, for the purpose of running a website, uses the Products or Services provided by the Company.
+Services
+By accessing the Site, the User is allowed to make use of, purchase and keep one or more Privacy Policy templates as created by using the privacy policy generator. The Privacy Policy template is created based on a combination of predefined and user selected parameters. Although both the predefined and user selected parameters are pre-written by the Company, it is the User’s responsibility to make sure that every item pertaining to the Privacy Policy template respects all necessary and relevant legal requirements. Similarly, a Privacy Policy template that is compliant with the privacy act does not confirm that the User website is compliant in the way which it collects and handles personal information. It is the responsibility of the User to ensure that the Privacy Policy template is accurate and that it meets their company’s specific needs. The Company is not liable or responsible for any Privacy Policy templates created using our services and gives no warranties, express or implied, that the Privacy Policy templates created are complete, accurate or free from errors or omission. The Company does not provide any professional legal advice and strongly recommends the User to seek professional legal advice. A Privacy Policy template is supplied to the User in text formats to assist the User in amending the template with the assistance of professional legal advice to ensure compliance. The templates generated using this Service are themselves not definitive in their own right.
+Purchase and Payments
+The Site offers a Services which is for sale. All payments made through the Site are handled by a 3rd party payment system. Any payment issues need to be resolved directly with the payment processor. If any matter requires further attention, we will be notified directly by the payment processor. Before the User confirms the final purchase amount, they will be informed of the total price of the service before they commit. Given that this is a one-off payment service, there are no recurring payments and the User will only ever be charged by the payment processor at the time of purchase. An email invoice with unique invoice number will be emailed to the User upon receipt of payment.
+Copyright
+The My Privacy Policy logo and all other trademarks, graphics and logos used in connection with My Privacy Policy, or the Site are trademarks or registered trademarks of My Privacy Policy. Using or visiting the site grants you no right to reproduce or otherwise use the My Privacy Policy trademark.
+Limitation of Liability
+In no event will My Privacy Policy, or its suppliers or licensors, be liable with respect to any aspects of these terms of service under any laws of contract, negligence, strict liability, or other legal or equitable doctrine. The Company shall not be liable for any damages that result from the use or inability to use the services and products provided by the Site. The overall liability can not in any case exceed the fees paid by the User to the Company for the services provided by the Site.
+Indemnification
+You agree to indemnify and hold harmless the Company, its suppliers or licensors and their respective directors, officers, employees and agents from and against any such claims and expenses, including legal fees, arising out of your use of the Site, including but not limited to your violation of this agreement.
+Changes to Our Terms and Privacy Policy
+The Company reserves the right to make any adjustments to these terms from time to time at its discretion. Users are encouraged to check for such changes. Access to the Site constitutes as User’s acceptance of any such changes.
+Independence of Clauses
+Each clause found within theses terms of service is to be interpreted separately and independently of the other clauses. If for whatever reason a clause is deemed invalid or void, it shall no compromise the validity of any other clauses within these terms of service.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -150,7 +177,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0h-wz-8e8">
                                 <rect key="frame" x="20" y="72" width="560" height="520"/>
-                                <mutableString key="text">How is my Personal Information Collected? 
+                                <string key="text">How is my Personal Information Collected? 
 The main way we collect personal information is through you directly or through your authorised representative.
 We sometimes collect personal information from a third party or from a publicly available source, but only if:
 you have consented to such collection or would reasonably expect us to collect your personal information in this way, or
@@ -169,7 +196,7 @@ When the personal information that we collect is no longer required, we destroy 
 Can I Access or Change the Personal Information I give you?
 Yes, you can access the personal information that we hold about you, and you can ask us to correct it. You can email us at info@myprivacypolicy.com
 Our Obligations
-My Privacy Policy is bound by the Australian Privacy Principles in the Privacy Act. We care about our users and do everything we can to adhere to the 13 Australian Privacy Principles as per the OAIC guidelines.</mutableString>
+My Privacy Policy is bound by the Australian Privacy Principles in the Privacy Act. We care about our users and do everything we can to adhere to the 13 Australian Privacy Principles as per the OAIC guidelines.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -182,10 +209,10 @@ My Privacy Policy is bound by the Australian Privacy Principles in the Privacy A
             </objects>
             <point key="canvasLocation" x="1844" y="-283"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Info-->
         <scene sceneID="bRC-Zg-wOo">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wpc-7f-Zcz" sceneMemberID="viewController">
+                <navigationController title="Info" automaticallyAdjustsScrollViewInsets="NO" id="Wpc-7f-Zcz" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mHV-Iu-myy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
