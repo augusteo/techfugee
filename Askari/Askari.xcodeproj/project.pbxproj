@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CE6B65E1CC2114300B31C04 /* ConfirmedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6B65C1CC2114300B31C04 /* ConfirmedCell.swift */; };
+		1CE6B65F1CC2114300B31C04 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6B65D1CC2114300B31C04 /* RequestCell.swift */; };
+		1CE6B6611CC2114E00B31C04 /* LiveChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6B6601CC2114E00B31C04 /* LiveChatVC.swift */; };
 		6A52EB361CC1177900A6BC5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB351CC1177900A6BC5C /* AppDelegate.swift */; };
 		6A52EB3B1CC1177A00A6BC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB391CC1177A00A6BC5C /* Main.storyboard */; };
 		6A52EB3D1CC1177A00A6BC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB3C1CC1177A00A6BC5C /* Assets.xcassets */; };
@@ -20,7 +23,6 @@
 		6A52EB6F1CC131D500A6BC5C /* ResultsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB6E1CC131D500A6BC5C /* ResultsStoryboard.storyboard */; };
 		6A52EB711CC1325800A6BC5C /* ResultsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB701CC1325800A6BC5C /* ResultsCollectionViewController.swift */; };
 		6A52EB731CC1327600A6BC5C /* ResultsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB721CC1327600A6BC5C /* ResultsDetailViewController.swift */; };
-		6A52EB751CC1329100A6BC5C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB741CC1329100A6BC5C /* InfoViewController.swift */; };
 		6A52EB771CC18FC500A6BC5C /* SignUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52EB761CC18FC500A6BC5C /* SignUpStoryboard.storyboard */; };
 		6A52EB791CC18FEE00A6BC5C /* SelectTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB781CC18FEE00A6BC5C /* SelectTypeViewController.swift */; };
 		6A52EB7D1CC190FF00A6BC5C /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52EB7C1CC190FF00A6BC5C /* CustomTabBarController.swift */; };
@@ -47,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CE6B65C1CC2114300B31C04 /* ConfirmedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmedCell.swift; sourceTree = "<group>"; };
+		1CE6B65D1CC2114300B31C04 /* RequestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
+		1CE6B6601CC2114E00B31C04 /* LiveChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveChatVC.swift; sourceTree = "<group>"; };
 		4B25C5027DD2EC4B8512F8D1 /* Pods_Askari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Askari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E630C25E1D3EF1069473160 /* Pods_AskariTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskariTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C8D80C8F0C72D5D4857CFF /* Pods-AskariTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskariTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AskariTests/Pods-AskariTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +72,6 @@
 		6A52EB6E1CC131D500A6BC5C /* ResultsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResultsStoryboard.storyboard; sourceTree = "<group>"; };
 		6A52EB701CC1325800A6BC5C /* ResultsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCollectionViewController.swift; sourceTree = "<group>"; };
 		6A52EB721CC1327600A6BC5C /* ResultsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsDetailViewController.swift; sourceTree = "<group>"; };
-		6A52EB741CC1329100A6BC5C /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		6A52EB761CC18FC500A6BC5C /* SignUpStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUpStoryboard.storyboard; sourceTree = "<group>"; };
 		6A52EB781CC18FEE00A6BC5C /* SelectTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTypeViewController.swift; sourceTree = "<group>"; };
 		6A52EB7C1CC190FF00A6BC5C /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = ../CustomTabBarController.swift; sourceTree = "<group>"; };
@@ -189,6 +193,9 @@
 			children = (
 				6A52EB621CC12E4A00A6BC5C /* ConnectStoryboard.storyboard */,
 				6A52EB6A1CC1317600A6BC5C /* ConnectViewController.swift */,
+				1CE6B65C1CC2114300B31C04 /* ConfirmedCell.swift */,
+				1CE6B65D1CC2114300B31C04 /* RequestCell.swift */,
+				1CE6B6601CC2114E00B31C04 /* LiveChatVC.swift */,
 			);
 			name = Connect;
 			sourceTree = "<group>";
@@ -197,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				6A52EB641CC12E5400A6BC5C /* InfoStoryboard.storyboard */,
-				6A52EB741CC1329100A6BC5C /* InfoViewController.swift */,
 			);
 			name = Info;
 			sourceTree = "<group>";
@@ -469,14 +475,16 @@
 				6AE27E0B1CC19D030010AD09 /* EntityManager.swift in Sources */,
 				6AE27E0D1CC19D760010AD09 /* EntityModel.swift in Sources */,
 				6A52EB791CC18FEE00A6BC5C /* SelectTypeViewController.swift in Sources */,
+				1CE6B65F1CC2114300B31C04 /* RequestCell.swift in Sources */,
 				6AA418531CC1A55A0075DB00 /* AskariAPI.swift in Sources */,
 				6A52EB671CC1311D00A6BC5C /* ProfileViewController.swift in Sources */,
 				6A6736451CC1C9F700E0646C /* SignUpTableViewController.swift in Sources */,
 				6A52EB711CC1325800A6BC5C /* ResultsCollectionViewController.swift in Sources */,
 				6A52EB6B1CC1317600A6BC5C /* ConnectViewController.swift in Sources */,
-				6A52EB751CC1329100A6BC5C /* InfoViewController.swift in Sources */,
 				6A67364A1CC1DD8600E0646C /* ShareProfileViewController.swift in Sources */,
 				6A67364F1CC1F49400E0646C /* ResultCollectionCell.swift in Sources */,
+				1CE6B6611CC2114E00B31C04 /* LiveChatVC.swift in Sources */,
+				1CE6B65E1CC2114300B31C04 /* ConfirmedCell.swift in Sources */,
 				6A52EB361CC1177900A6BC5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

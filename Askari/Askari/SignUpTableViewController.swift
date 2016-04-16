@@ -7,22 +7,32 @@
 //
 
 import UIKit
+import TextFieldEffects
 
 class SignUpTableViewController: UITableViewController {
 
-  
-  @IBOutlet weak var nameTxtField: UITextField!
-  @IBOutlet weak var professionTxtField: UITextField!
-  @IBOutlet weak var languageTxtField: UITextField!
-  @IBOutlet weak var cityTxtField: UITextField!
-  @IBOutlet weak var stateTxtField: UITextField!
+  @IBOutlet weak var nameTxtField: HoshiTextField!
+  @IBOutlet weak var professionTxtField: HoshiTextField!
+  @IBOutlet weak var languageTxtField: HoshiTextField!
+  @IBOutlet weak var cityTxtField: HoshiTextField!
+  @IBOutlet weak var stateTxtField: HoshiTextField!
   
   @IBOutlet weak var industryPickerView: UIPickerView!
   
-  @IBOutlet weak var lookingForTxtField: UITextView!
-  @IBOutlet weak var bioTxtField: UITextView!
-  @IBOutlet weak var emailTxtField: UITextField!
-  @IBOutlet weak var pwdTxtField: UITextField!
+  @IBOutlet weak var lookingForTxtField: UITextView! {
+    didSet {
+      lookingForTxtField.layer.borderWidth = 0.5
+      lookingForTxtField.layer.borderColor = UIColor(red:0.11, green:0.53, blue:0.15, alpha:1.00).CGColor
+    }
+  }
+  @IBOutlet weak var bioTxtField: UITextView! {
+    didSet {
+      bioTxtField.layer.borderWidth = 0.5
+      bioTxtField.layer.borderColor = UIColor(red:0.11, green:0.53, blue:0.15, alpha:1.00).CGColor
+    }
+  }
+  @IBOutlet weak var emailTxtField: HoshiTextField!
+  @IBOutlet weak var passwordTxtField: HoshiTextField!
   
   var industryList: [String]?
   
@@ -38,7 +48,7 @@ class SignUpTableViewController: UITableViewController {
     lookingForTxtField.delegate = self
     bioTxtField.delegate = self
     emailTxtField.delegate = self
-    pwdTxtField.delegate = self
+    passwordTxtField.delegate = self
 
     industryList = ["Accounting",
     "Administration & Office Support",
@@ -83,7 +93,7 @@ class SignUpTableViewController: UITableViewController {
     EntityManager.shareInstance.entity?.lookingFor = self.lookingForTxtField.text!
     EntityManager.shareInstance.entity?.bio = self.bioTxtField.text!
     EntityManager.shareInstance.entity?.email = self.emailTxtField.text!
-    EntityManager.shareInstance.entity?.password = self.pwdTxtField.text!
+    EntityManager.shareInstance.entity?.password = self.passwordTxtField.text!
     
     self.dismissViewControllerAnimated(true) {
       
