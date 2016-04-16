@@ -1,5 +1,5 @@
-101,Ismail,Folk,Pert (WA),Call Centre & Customer Service
-102,Deryn,Litzenberger,Pert (WA),Science & Technology
+101,Ismail,Folk,Perth (WA),Call Centre & Customer Service
+102,Deryn,Litzenberger,Perth (WA),Science & Technology
 103,Sajid,Rossbach,Brisbane (QLD),Consulting & Strategy
 104,Nial,Mundhenk,Brisbane (QLD),Consulting & Strategy
 105,Rafferty,Steigerwalt,Sydney (NSW),Real Estate & Property
@@ -11,17 +11,17 @@
 111,Sayf,Altvater,Melbourne (VIC),Banking & Financial Services
 112,Umut,Usina,Gold Coast (QLD),Insurance & Superannuation
 113,Kimi,Heiskell,Melbourne (VIC),Legal
-114,Dean,Bang,Pert (WA),Legal
+114,Dean,Bang,Perth (WA),Legal
 115,Olie,Ruble,Hobart (TAS),Mining, Resources & Energy
 116,Ruari,Brakstad,Melbourne (VIC),Banking & Financial Services
 117,Crombie,Viscarra,Hobart (TAS),Real Estate & Property
 118,Aodhan,Delariva,Brisbane (QLD),Advertising, Arts & Media
-119,Lucais,Jumper,Pert (WA),Construction
+119,Lucais,Jumper,Perth (WA),Construction
 120,Ojima-Ojo,Landaverde,Brisbane (QLD),Mining, Resources & Energy
 121,Max,Sibel,Melbourne (VIC),Design & Architecture
-122,Ronin,Dehay,Pert (WA),Marketing & Communications
-123,Aedan,Bechel,Pert (WA),Legal
-124,Maxim,Yanish,Pert (WA),Accounting
+122,Ronin,Dehay,Perth (WA),Marketing & Communications
+123,Aedan,Bechel,Perth (WA),Legal
+124,Maxim,Yanish,Perth (WA),Accounting
 125,Enrique,Decoster,Brisbane (QLD),Retail & Consumer Products
 126,Aulay,Smola,Hobart (TAS),Advertising, Arts & Media
 127,Malik,Bulland,Hobart (TAS),Community Services & Development
@@ -31,33 +31,33 @@
 131,Ty,Cogan,Sydney (NSW),Engineering
 132,Farzad,Ballon,Cairns (QLD),Community Services & Development
 133,Hogan,Lamirand,Cairns (QLD),Advertising, Arts & Media
-134,Riach,Okumoto,Pert (WA),Education & Training
-135,Matt,Mantella,Pert (WA),Marketing & Communications
+134,Riach,Okumoto,Perth (WA),Education & Training
+135,Matt,Mantella,Perth (WA),Marketing & Communications
 136,Jazz,Laplume,Sydney (NSW),Advertising, Arts & Media
 137,Henri,Rulon,Sydney (NSW),Education & Training
-138,Benoit,Stetzel,Pert (WA),Banking & Financial Services
+138,Benoit,Stetzel,Perth (WA),Banking & Financial Services
 139,Zubair,Euser,Cairns (QLD),Advertising, Arts & Media
-140,Xin,Mahn,Pert (WA),Call Centre & Customer Service
+140,Xin,Mahn,Perth (WA),Call Centre & Customer Service
 141,Mati,Gaestel,Brisbane (QLD),Insurance & Superannuation
 142,Cobie,Hearns,Cairns (QLD),Marketing & Communications
 143,Denzel,Fedak,Gold Coast (QLD),Hospitality & Tourism
 144,Eden,Brackbill,Hobart (TAS),Self Employment
-145,Cale,Manley,Pert (WA),Science & Technology
+145,Cale,Manley,Perth (WA),Science & Technology
 146,Kaison,Baltes,Melbourne (VIC),Self Employment
 147,Conrad,Robuck,Melbourne (VIC),Education & Training
 148,Manas,Kuta,Sydney (NSW),Farming, Animals & Conservation
 149,Jasey-Jay,Messana,Melbourne (VIC),Information & Communication Technology
 150,Jaime,Py,Cairns (QLD),Accounting
 151,Malcolm,Clinch,Cairns (QLD),Science & Technology
-152,Shadow,Butsch,Pert (WA),Trades & Services
+152,Shadow,Butsch,Perth (WA),Trades & Services
 153,Dissanayake,Harmsen,Cairns (QLD),Advertising, Arts & Media
 154,Mykie,Nagele,Melbourne (VIC),Marketing & Communications
 155,Reeve,Valrie,Melbourne (VIC),Construction
-156,Derin,Northam,Pert (WA),Information & Communication Technology
+156,Derin,Northam,Perth (WA),Information & Communication Technology
 157,Shiloh,Lefore,Melbourne (VIC),Sport & Recreation
-158,Thiago,Shillingburg,Pert (WA),Manufacturing, Transport & Logistics
+158,Thiago,Shillingburg,Perth (WA),Manufacturing, Transport & Logistics
 159,Indy,Mesrobian,Melbourne (VIC),Advertising, Arts & Media
-160,Taddy,Helland,Pert (WA),Construction
+160,Taddy,Helland,Perth (WA),Construction
 161,Maisum,Ledebuhr,Gold Coast (QLD),Sport & Recreation
 162,Caedan,Siter,Gold Coast (QLD),Marketing & Communications
 163,Dimitri,Magro,Melbourne (VIC),Community Services & Development
@@ -65,7 +65,7 @@
 165,Rahil,Lebeck,Gold Coast (QLD),Self Employment
 166,Duncan,Wilensky,Cairns (QLD),Farming, Animals & Conservation
 167,Tyler-Jay,Yagin,Cairns (QLD),Human Resources & Recruitment
-168,Benjamyn,Mathewes,Pert (WA),Self Employment
+168,Benjamyn,Mathewes,Perth (WA),Self Employment
 169,Jon-Paul,Peelle,Melbourne (VIC),Marketing & Communications
 170,Che,Melichar,Gold Coast (QLD),Accounting
 171,Rhian,Mosey,Cairns (QLD),Sales
@@ -73,27 +73,27 @@
 173,Marcin,Bertelsen,Gold Coast (QLD),Trades & Services
 174,Radmiras,Brees,Cairns (QLD),Advertising, Arts & Media
 175,Emmanuel,Baugham,Brisbane (QLD),Insurance & Superannuation
-176,Deryn,Stoltzfus,Pert (WA),Banking & Financial Services
+176,Deryn,Stoltzfus,Perth (WA),Banking & Financial Services
 177,Lewie,Eger,Melbourne (VIC),Sport & Recreation
 178,Junior,Boera,Cairns (QLD),Hospitality & Tourism
 179,Caedyn,Estabrook,Brisbane (QLD),Mining, Resources & Energy
-180,Curtis,Fullem,Pert (WA),Hospitality & Tourism
+180,Curtis,Fullem,Perth (WA),Hospitality & Tourism
 181,Taylor-Lee,Stroub,Brisbane (QLD),Administration & Office Support
-182,Milosz,Baugus,Pert (WA),Trades & Services
+182,Milosz,Baugus,Perth (WA),Trades & Services
 183,Rylee,Jaster,Gold Coast (QLD),Call Centre & Customer Service
 184,Shane,Sonnee,Brisbane (QLD),Mining, Resources & Energy
 185,Montgomery,Khlok,Melbourne (VIC),Legal
 186,Aaran,Gaerlan,Melbourne (VIC),Call Centre & Customer Service
-187,Simon,Schwenke,Pert (WA),Real Estate & Property
-188,Bhaaldeen,Vititoe,Pert (WA),Trades & Services
-189,Alasdair,Vieu,Pert (WA),Farming, Animals & Conservation
+187,Simon,Schwenke,Perth (WA),Real Estate & Property
+188,Bhaaldeen,Vititoe,Perth (WA),Trades & Services
+189,Alasdair,Vieu,Perth (WA),Farming, Animals & Conservation
 190,Howard,Dotolo,Brisbane (QLD),Trades & Services
 191,Ayren,Bruchey,Hobart (TAS),Human Resources & Recruitment
 192,Leonardas,Hepler,Cairns (QLD),Construction
 193,Ross-Andrew,Ronca,Cairns (QLD),Design & Architecture
 194,Abbas,Sproul,Melbourne (VIC),Community Services & Development
 195,Nevan,Fitzrandolph,Gold Coast (QLD),Education & Training
-196,Danny,Ilaria,Pert (WA),Advertising, Arts & Media
+196,Danny,Ilaria,Perth (WA),Advertising, Arts & Media
 197,Jorryn,Prochnow,Cairns (QLD),Marketing & Communications
 198,Zen,Olvera,Sydney (NSW),Hospitality & Tourism
 199,Zennon,Shaggy,Brisbane (QLD),Call Centre & Customer Service

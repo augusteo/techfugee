@@ -16,12 +16,12 @@
 216,Soukina,Cambron,Cairns (QLD),Accounting
 217,Tamara,Sjogren,Sydney (NSW),Marketing & Communications
 218,Ruqayah,Sankar,Sydney (NSW),Science & Technology
-219,Darcie,Affagato,Pert (WA),Science & Technology
+219,Darcie,Affagato,Perth (WA),Science & Technology
 220,Ember,Showalter,Cairns (QLD),Science & Technology
 221,Karice,Locks,Cairns (QLD),Retail & Consumer Products
 222,Komal,Eans,Hobart (TAS),Advertising, Arts & Media
 223,Abbey,Strouth,Melbourne (VIC),Accounting
-224,Kathrina,Newbound,Pert (WA),Design & Architecture
+224,Kathrina,Newbound,Perth (WA),Design & Architecture
 225,Florence,Dawkin,Melbourne (VIC),Community Services & Development
 226,Mirran,Lehneis,Hobart (TAS),Manufacturing, Transport & Logistics
 227,Hebe,Chio,Sydney (NSW),Sport & Recreation
@@ -30,23 +30,23 @@
 230,Ceol,Kazanjian,Gold Coast (QLD),Banking & Financial Services
 231,Iris,Sheild,Brisbane (QLD),Insurance & Superannuation
 232,Sabina,Marcell,Brisbane (QLD),Healthcare & Medical
-233,Islay,Opdyke,Pert (WA),Sales
-234,Olutobilola,Mettle,Pert (WA),Information & Communication Technology
+233,Islay,Opdyke,Perth (WA),Sales
+234,Olutobilola,Mettle,Perth (WA),Information & Communication Technology
 235,Lilley,Homrighaus,Hobart (TAS),Sales
 236,Sukveer,Nibert,Gold Coast (QLD),Marketing & Communications
 237,Chloe-Louise,Dicecco,Hobart (TAS),Retail & Consumer Products
-238,Shelbie,David,Pert (WA),Human Resources & Recruitment
+238,Shelbie,David,Perth (WA),Human Resources & Recruitment
 239,Riha,Yamaguchi,Sydney (NSW),Science & Technology
 240,Swarnalakshmi,Reiman,Hobart (TAS),Sport & Recreation
-241,Haadiyah,Quarterman,Pert (WA),Community Services & Development
+241,Haadiyah,Quarterman,Perth (WA),Community Services & Development
 242,Lexis,Boudjouk,Melbourne (VIC),Information & Communication Technology
 243,Otilia,Mcgwin,Hobart (TAS),Insurance & Superannuation
-244,Kinza,Scoleri,Pert (WA),Science & Technology
+244,Kinza,Scoleri,Perth (WA),Science & Technology
 245,Munachi,Bergeaux,Brisbane (QLD),Information & Communication Technology
-246,Khaia,Wigfield,Pert (WA),Design & Architecture
+246,Khaia,Wigfield,Perth (WA),Design & Architecture
 247,Arfaa,Stainback,Brisbane (QLD),Retail & Consumer Products
 248,Ellah,Danley,Gold Coast (QLD),Construction
-249,Miriam,Nakasone,Pert (WA),Education & Training
+249,Miriam,Nakasone,Perth (WA),Education & Training
 250,Mailli,Hrycenko,Cairns (QLD),Manufacturing, Transport & Logistics
 251,Libbi-louise,Huitron,Sydney (NSW),Accounting
 252,Aileigh,Salvature,Hobart (TAS),Sport & Recreation
@@ -57,10 +57,10 @@
 257,Wiktoria,Crumb,Gold Coast (QLD),Education & Training
 258,Pia,Eiesland,Hobart (TAS),Mining, Resources & Energy
 259,Louella,Jenkins,Cairns (QLD),Hospitality & Tourism
-260,Mandy,Estrela,Pert (WA),Advertising, Arts & Media
+260,Mandy,Estrela,Perth (WA),Advertising, Arts & Media
 261,Calice,Kaup,Gold Coast (QLD),Trades & Services
 262,Melis,Yake,Cairns (QLD),Marketing & Communications
-263,Aoibha,Finnigan,Pert (WA),Information & Communication Technology
+263,Aoibha,Finnigan,Perth (WA),Information & Communication Technology
 264,Tamta,Berlinghof,Hobart (TAS),Consulting & Strategy
 265,Katie-Marie,Scarlata,Hobart (TAS),Human Resources & Recruitment
 266,Gaia,Carfrey,Cairns (QLD),Community Services & Development
@@ -75,10 +75,10 @@
 275,Ashley,Yantis,Hobart (TAS),Farming, Animals & Conservation
 276,Sharon,Carras,Melbourne (VIC),Marketing & Communications
 277,Kassidy,Shene,Sydney (NSW),Engineering
-278,Seighin,Howatt,Pert (WA),Trades & Services
+278,Seighin,Howatt,Perth (WA),Trades & Services
 279,Laila,Yahl,Cairns (QLD),Farming, Animals & Conservation
 280,Ines,Stempel,Cairns (QLD),Trades & Services
-281,Fatiha,Session,Pert (WA),Banking & Financial Services
+281,Fatiha,Session,Perth (WA),Banking & Financial Services
 282,Marykate,Quattrini,Brisbane (QLD),Construction
 283,Ajooni,Lura,Hobart (TAS),Trades & Services
 284,Adana,Maloof,Melbourne (VIC),Advertising, Arts & Media
@@ -93,7 +93,7 @@
 293,Evelynne,Brunetta,Melbourne (VIC),Trades & Services
 294,Kaleah,Mcmindes,Cairns (QLD),Construction
 295,Georgie,Burright,Melbourne (VIC),Manufacturing, Transport & Logistics
-296,Abrar,Belko,Pert (WA),Hospitality & Tourism
+296,Abrar,Belko,Perth (WA),Hospitality & Tourism
 297,Clove,Simenez,Brisbane (QLD),Advertising, Arts & Media
 298,Lexie,Billingsley,Gold Coast (QLD),Real Estate & Property
 299,Alex,Minge,Hobart (TAS),Healthcare & Medical
