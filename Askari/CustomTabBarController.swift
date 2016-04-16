@@ -11,10 +11,7 @@ import Onboard
 
 class CustomTabBarController: UITabBarController {
 
-  let hasBeenOnboarded = NSUserDefaults.standardUserDefaults().boolForKey("hasBeenOnboarded")
   let onboardVC = OnboardingViewController()
-  
-  let isLoggedIn = false
   
   override func viewDidLoad() {
       super.viewDidLoad()
@@ -23,15 +20,11 @@ class CustomTabBarController: UITabBarController {
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated)
     
-    if !hasBeenOnboarded {
+    if !NSUserDefaults.standardUserDefaults().boolForKey("hasBeenOnboarded") {
       showOnboarding()
-    } else {
-      NSUserDefaults.standardUserDefaults().setBool(true, forKey: "hasBeenOnboarded")
     }
     
-    if !isLoggedIn {
-//      showSignUpModal()
-    }
+    showSignUpModal()
   }
   
   func showOnboarding() {
