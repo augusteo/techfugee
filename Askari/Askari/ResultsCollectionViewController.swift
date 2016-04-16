@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 private let reuseIdentifier = "resultCell"
 
@@ -72,7 +73,7 @@ override func collectionView(collectionView: UICollectionView, cellForItemAtInde
   /* Substitute this with the entity results */
   cell.nameLbl.text = mentee.name
   cell.titleLbl.text = mentee.title
-  
+  cell.imgView.kf_setImageWithURL(NSURL(string: mentee.photo)!, placeholderImage: UIImage(named: "profilePic"))
 
     return cell
   }
