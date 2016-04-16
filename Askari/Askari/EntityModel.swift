@@ -9,8 +9,8 @@
 struct EntityModel {
   
   enum MType: Int {
-    case Mentor = 0
-    case Mentee = 1
+    case Mentor
+    case Mentee
   }
   
   var entityType: MType

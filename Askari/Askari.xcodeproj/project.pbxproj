@@ -111,13 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CE1E4F61CC1BC3400B46B0D /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Onboarding;
-			sourceTree = "<group>";
-		};
 		6A52EB291CC1177900A6BC5C = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +134,6 @@
 		6A52EB341CC1177900A6BC5C /* Askari */ = {
 			isa = PBXGroup;
 			children = (
-				1CE1E4F61CC1BC3400B46B0D /* Onboarding */,
 				6AE27E0E1CC1A48B0010AD09 /* Networking */,
 				6AE27E071CC19B960010AD09 /* Data */,
 				6A52EB551CC118B400A6BC5C /* SignUp */,
