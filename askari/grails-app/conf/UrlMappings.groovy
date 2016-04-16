@@ -5,7 +5,7 @@ class UrlMappings {
 			"/mentors"(controller: "user", action: 'listMentors', method: "GET")
 			"/mentees"(controller: "user", action: 'listMentees', method: "GET")
 			"/user"(controller: "user", action: 'createUser', method: "POST")
-			"/user"(controller: "user", action: 'readUser', method: "GET")
+			"/user/$id?"(controller: "user", action: 'readUser', method: "GET")
 			"/login"(controller: "login", action: 'login', method: "POST")
 			"/photo/$id?"(controller: "photo", action: 'uploadPhoto', method: "POST")
 			"/addFakeUsers"(controller: "user", action: 'makeFakeUsers', method: "GET")
