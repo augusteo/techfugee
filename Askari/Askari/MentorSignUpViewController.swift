@@ -22,7 +22,7 @@ class MentorSignUpViewController: UIViewController {
     self.dismissViewControllerAnimated(true) { 
       print("signed up as mentor")
       
-      let mentor = EntityModel(entityType: EntityModel.MType.Mentor, name: "Victor", industry: "Technology", location: "Melbourne", company: "PWC", position: "Senior iOS Developer", email: "vic@pwc.com", phone: "0395955542")
+      let mentor = EntityModel(entityType: EntityModel.MType.Mentor, id: "123123", name: "Victor", title: "Technology", city: "Melbourne", state: "VIC", industry: "Technology", lookingFor: "Technology", phone: "04412322032", bio: "I like Reactive Cocoa", email: "", password: "")
       
       EntityManager.shareInstance.entity = mentor
       
