@@ -120,6 +120,9 @@ extension ResultsCollectionViewController: UICollectionViewDelegateFlowLayout {
  
   override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
     let sharedProfileVC = ShareProfileViewController(nibName: "ShareProfileViewController", bundle: nil)
+    sharedProfileVC.isProfile = false
+    let mentity = viewModel.modelList[indexPath.row]
+    sharedProfileVC.mentity = mentity
     navigationController?.pushViewController(sharedProfileVC, animated: true)
   }
 }

@@ -16,18 +16,23 @@ class ShareProfileViewController: UIViewController {
   @IBOutlet weak var professionLbl: UILabel!
   @IBOutlet weak var locationLbl: UILabel!
   
+  var isProfile: Bool = true
+  var mentity: EntityModel?
   
   override func viewDidLoad() {
       super.viewDidLoad()
 
       // Do any additional setup after loading the view.
     self.edgesForExtendedLayout = UIRectEdge.None
+    if mentity != nil {
+      loadModel(mentity!)
+    }
     
   }
   
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
-    if EntityManager.shareInstance.isLoggedIn() {
+    if EntityManager.shareInstance.isLoggedIn() && isProfile {
       refreshDetails()
     }
   }
