@@ -6,6 +6,8 @@
 //  Copyright © 2016 Pk Heng. All rights reserved.
 //
 
+import Foundation
+
 struct EntityModel {
   
   enum MType: Int {
@@ -15,7 +17,7 @@ struct EntityModel {
   
   var entityType: MType
   
-  var id: String
+  var id: NSNumber
   var name: String
   var title: String
   var city: String

@@ -22,7 +22,11 @@ class ResultsCollectionViewController: UICollectionViewController {
   override func viewDidLoad() {
       super.viewDidLoad()
     
-      viewModel.fetchMentees()
+    viewModel.fetchMentees(failure: { error in
+      print("\(error.localizedDescription)")
+    }) {
+      self.collectionView?.reloadData()
+    }
       // Uncomment the following line to preserve selection between presentations
       // self.clearsSelectionOnViewWillAppear = false
 
@@ -33,12 +37,6 @@ class ResultsCollectionViewController: UICollectionViewController {
       // Do any additional setup after loading the view.
   }
   
-  override func viewWillAppear(animated: Bool) {
-    
-//    print(EntityManager.shareInstance.entity)
-    
-  }
-
   override func didReceiveMemoryWarning() {
       super.didReceiveMemoryWarning()
       // Dispose of any resources that can be recreated.
@@ -63,16 +61,17 @@ class ResultsCollectionViewController: UICollectionViewController {
 
   override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     
-      return 10
+      return viewModel.modelList.count
   }
 
 override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! ResultCollectionCell
   
+  let mentee = viewModel.modelList[indexPath.row]
   
   /* Substitute this with the entity results */
-  cell.nameLbl.text = "Test Name"
-  cell.titleLbl.text = "Test Profession"
+  cell.nameLbl.text = mentee.name
+  cell.titleLbl.text = mentee.title
   
 
     return cell

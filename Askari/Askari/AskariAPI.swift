@@ -31,10 +31,10 @@ extension SearchParam: TargetType {
   public var path: String {
   
     switch self {
-    case .MentorIndustry(let industry):
-      return "/mentor?industry=\(industry)"
-    case .MenteeIndustry(let industry):
-      return "/mentee/?industry=\(industry)"
+    case .MentorIndustry(_):
+      return "mentors"
+    case .MenteeIndustry(_):
+      return "mentees"
     }
     
   }

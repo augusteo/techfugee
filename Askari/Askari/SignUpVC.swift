@@ -21,7 +21,7 @@ class SignUpVC: UIViewController {
   
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     
-    EntityManager.shareInstance.entity = EntityModel(entityType: EntityModel.MType.Mentee, id: "", name: "Jack Jong", title: "Senior Pastry Chef", city: "Melbourne", state: "Victoria", industry: "Hospitality", lookingFor: "", language: "", phone: "", bio: "", email: "", password: "", photo: "http://aspireid.com/wp/wp-content/uploads/sample-customer-photo2.jpg")
+    EntityManager.shareInstance.entity = EntityModel(entityType: EntityModel.MType.Mentee, id: 123, name: "Jack Jong", title: "Senior Pastry Chef", city: "Melbourne", state: "Victoria", industry: "Hospitality", lookingFor: "", language: "", phone: "", bio: "", email: "", password: "", photo: "http://aspireid.com/wp/wp-content/uploads/sample-customer-photo2.jpg")
     
     if segue.identifier == "mentorSignUp" {
       EntityManager.shareInstance.entity?.entityType = EntityModel.MType.Mentor
