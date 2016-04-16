@@ -5,7 +5,16 @@ import grails.converters.JSON
 
 class ConnectionController {
 
-	def makeConnection(User mentor, User mentee){
+	static responseFormats = ['json', 'xml']
+	static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+	
+	def makeConnection(){
+		
+		Long mentorId = Long.parseLong(params.mentorId)
+		Long menteeId = Long.parseLong(params.menteeId)
+		
+		User mentor = User.findById(mentorId)
+		User mentee = User.findById(menteeId)
 		
 		if ((mentor==null)||(mentee==null)) {
 			log.error("Mentor or mentee does not exist");
@@ -42,12 +51,13 @@ class ConnectionController {
 		
 		List<Connection> connections = null
 		if (userInstance.isMentor){
-			connections = Connection.findByMentor(userInstance)
+			connections = Connection.findAllByMentor(userInstance)
 		} else{
-			connections = Connection.findByMentee(userInstance)
+			connections = Connection.findAllByMentee(userInstance)
 		}
 		
-		return connections
+		render connections as JSON
+		render status: OK
 	}
 	
 	def listConfirmedConnectionsForUser(User userInstance){
@@ -59,12 +69,13 @@ class ConnectionController {
 		
 		List<Connection> connections = null
 		if (userInstance.isMentor){
-			connections = Connection.findByMentorAndIsConfirmed(userInstance, true)
+			connections = Connection.findAllByMentorAndIsConfirmed(userInstance, true)
 		} else{
-			connections = Connection.findByMenteeAndIsConfirmed(userInstance, true)
+			connections = Connection.findAllByMenteeAndIsConfirmed(userInstance, true)
 		}
 		
-		return connections
+		render connections as JSON
+		render status: OK
 	}
 	
 	
@@ -77,12 +88,13 @@ class ConnectionController {
 		
 		List<Connection> connections = null
 		if (userInstance.isMentor){
-			connections = Connection.findByMentorAndIsConfirmed(userInstance, false)
+			connections = Connection.findAllByMentorAndIsConfirmed(userInstance, false)
 		} else{
-			connections = Connection.findByMenteeAndIsConfirmed(userInstance, false)
+			connections = Connection.findAllByMenteeAndIsConfirmed(userInstance, false)
 		}
 		
-		return connections
+		render connections as JSON
+		render status: OK
 	}
 	
 	
@@ -109,6 +121,8 @@ class ConnectionController {
 		connection.setIsConfirmed(true)
 		
 		connection.save(flush:true)
+		
+		render connection as JSON
 		render status: OK
 	}
 	

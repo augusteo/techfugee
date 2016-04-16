@@ -31,6 +31,8 @@ grails.mime.types = [ // the first one is the default format
     xml:           ['text/xml', 'application/xml']
 ]
 
+
+grails.app.context = "/"
 grails.mime.disable.accept.header.userAgents = []
 
 // URL Mapping Cache Max Size, defaults to 5000
