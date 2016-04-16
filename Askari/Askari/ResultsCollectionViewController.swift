@@ -35,7 +35,7 @@ class ResultsCollectionViewController: UICollectionViewController {
   
   override func viewWillAppear(animated: Bool) {
     
-    print(EntityManager.shareInstance.entity)
+//    print(EntityManager.shareInstance.entity)
     
   }
 

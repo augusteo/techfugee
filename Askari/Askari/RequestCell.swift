@@ -19,6 +19,5 @@ class RequestCell: UITableViewCell {
   
   @IBAction func confirmAction(sender: AnyObject) {
     SCLAlertView().showInfo("Confirmed", subTitle: "You have confirmed this connection")
-    
   }
 }

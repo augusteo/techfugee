@@ -14,11 +14,12 @@ class MentorViewModel {
   var modelList = [EntityModel]()
   
   func fetchMentees() {
-    Alamofire.request(.GET, serviceBaseUrl+"mentees")
+    let menteeString = serviceBaseUrl + "mentees"
+    print(menteeString)
+    Alamofire.request(.GET, menteeString)
       .responseJSON { response in
-        if let value = response.result.value {
-          let json = JSON(value)
-          print("JSON: \(json)")
+        if let JSON = response.result.value {
+          print("JSON: \(JSON)")
         }
     }
   }
