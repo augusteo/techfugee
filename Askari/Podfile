@@ -1,0 +1,17 @@
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'Moya'
+pod 'Onboard'
+pod 'TextFieldEffects'
+
+target 'Askari' do
+
+end
+
+target 'AskariTests' do
+
+end
+

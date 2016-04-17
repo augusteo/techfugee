@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FPF-CE-nx0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--SignUpStoryboard-->
+        <scene sceneID="3Ac-a1-50G">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignUpStoryboard" id="QVj-Vg-Ec1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rYK-Ta-Ofi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3.5" y="-598"/>
+        </scene>
+        <!--Custom Tab Bar Controller-->
+        <scene sceneID="EX0-uw-Lzr">
+            <objects>
+                <tabBarController id="FPF-CE-nx0" customClass="CustomTabBarController" customModule="Askari" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Qtq-9m-v2I">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Yn9-rT-YDf" kind="relationship" relationship="viewControllers" id="1wd-lE-iSM"/>
+                        <segue destination="SaD-bI-UG2" kind="relationship" relationship="viewControllers" id="ZIO-4K-tAh"/>
+                        <segue destination="ScM-0E-uXP" kind="relationship" relationship="viewControllers" id="5Jd-53-nN6"/>
+                        <segue destination="uEp-w2-PLP" kind="relationship" relationship="viewControllers" id="6Fa-kh-Sns"/>
+                        <segue destination="QVj-Vg-Ec1" kind="presentation" identifier="showSignUp" id="eK0-D1-Z4y"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wh3-eS-olc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50" y="261"/>
+        </scene>
+        <!--ProfileStoryboard-->
+        <scene sceneID="NWX-3g-UUC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ProfileStoryboard" id="Yn9-rT-YDf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" selectedImage="profile" id="L9V-Jj-M0Y"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OIO-IR-Czf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741.5" y="-149"/>
+        </scene>
+        <!--ResultsStoryboard-->
+        <scene sceneID="B8U-gX-UgH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ResultsStoryboard" id="SaD-bI-UG2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Browse" selectedImage="mentor" id="Iqu-UU-YcQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zld-mw-QOr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745.5" y="-51"/>
+        </scene>
+        <!--ConnectStoryboard-->
+        <scene sceneID="6Yu-FC-OrW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ConnectStoryboard" id="ScM-0E-uXP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Connect" selectedImage="connect" id="erp-J3-egs"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dbN-s6-rJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745.5" y="97"/>
+        </scene>
+        <!--InfoStoryboard-->
+        <scene sceneID="pWR-eZ-bcC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="InfoStoryboard" id="uEp-w2-PLP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" selectedImage="info" systemItem="more" id="kIF-yq-psT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mm3-eh-Q6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="739.5" y="255"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="connect" width="600" height="600"/>
+        <image name="info" width="600" height="600"/>
+        <image name="mentor" width="600" height="600"/>
+        <image name="profile" width="600" height="600"/>
+    </resources>
+</document>

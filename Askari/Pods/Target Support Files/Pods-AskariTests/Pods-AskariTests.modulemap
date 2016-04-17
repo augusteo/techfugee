@@ -1,0 +1,6 @@
+framework module Pods_AskariTests {
+  umbrella header "Pods-AskariTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (3.3.1)
+  - Moya (6.4.0):
+    - Moya/Core (= 6.4.0)
+  - Moya/Core (6.4.0):
+    - Alamofire (~> 3.0)
+    - Result (~> 2.0)
+  - Onboard (2.1.9)
+  - Result (2.0.0)
+  - SwiftyJSON (2.3.2)
+  - TextFieldEffects (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Moya
+  - Onboard
+  - SwiftyJSON
+  - TextFieldEffects
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  Moya: 4d526954c8afd79820991393d40d7d8af756ceee
+  Onboard: 4d92c763ed15f939071dec12e87ed9e8dc036746
+  Result: 9e75e1111c774c6ac594e14907b15057053a7959
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
+
+COCOAPODS: 0.39.0

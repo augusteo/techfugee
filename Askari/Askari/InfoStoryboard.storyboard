@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Wpc-7f-Zcz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Info-->
+        <scene sceneID="GY4-2S-h7Z">
+            <objects>
+                <tableViewController id="9Li-dd-yc6" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="xXK-cQ-mZ0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="kJa-ly-GTn">
+                            <rect key="frame" x="0.0" y="64" width="600" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="7ls-0y-lcl">
+                            <rect key="frame" x="0.0" y="196" width="600" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <sections>
+                            <tableViewSection id="tRE-eU-KUM">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Fkk-B7-YYw" style="IBUITableViewCellStyleDefault" id="inT-mi-FKS">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="inT-mi-FKS" id="XgE-wy-P6j">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fkk-B7-YYw">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Dk2-ZU-TAI" kind="show" id="CGz-7P-oZS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Rkl-nK-4kB" style="IBUITableViewCellStyleDefault" id="R8a-0T-UAJ">
+                                        <rect key="frame" x="0.0" y="108" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="R8a-0T-UAJ" id="QoZ-kP-VqL">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Terms &amp; Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rkl-nK-4kB">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="kkm-dC-nTe" kind="show" id="0IT-d9-PMF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="yBb-1f-ro5" style="IBUITableViewCellStyleDefault" id="lky-3S-WGk">
+                                        <rect key="frame" x="0.0" y="152" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lky-3S-WGk" id="6vN-6g-X2u">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Contact Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yBb-1f-ro5">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Y9V-cY-eZ0" kind="show" id="NBN-2v-MGm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="9Li-dd-yc6" id="hWt-Sd-4Is"/>
+                            <outlet property="delegate" destination="9Li-dd-yc6" id="s9b-Gn-pCA"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Info" id="VZD-aQ-zv2"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xuf-kG-2ii" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1160" y="345"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="M5S-x9-jcu">
+            <objects>
+                <viewController title="Contact" id="Y9V-cY-eZ0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WCi-rj-ALc"/>
+                        <viewControllerLayoutGuide type="bottom" id="aLS-Ys-uEg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pMb-Vy-NuR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lkr-en-AOh" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="20" y="72" width="560" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="w5c-ri-egU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ezZ-7a-ZEr" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="20" y="132" width="560" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Gto-3Z-LJK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Message" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="09t-zg-8Sh" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="20" y="192" width="560" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="0jm-4B-0YN"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwj-H2-zNS">
+                                <rect key="frame" x="250" y="252" width="101" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="BHq-5K-s0I"/>
+                                    <constraint firstAttribute="height" constant="30" id="bJa-CI-Z9J"/>
+                                </constraints>
+                                <state key="normal" title="Send Message">
+                                    <color key="titleColor" red="0.077221520245075226" green="0.53449279069900513" blue="0.12237972766160965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="09t-zg-8Sh" firstAttribute="top" secondItem="ezZ-7a-ZEr" secondAttribute="bottom" constant="15" id="0K7-fN-7Gs"/>
+                            <constraint firstItem="09t-zg-8Sh" firstAttribute="leading" secondItem="pMb-Vy-NuR" secondAttribute="leadingMargin" id="8Bh-pY-w3O"/>
+                            <constraint firstItem="ezZ-7a-ZEr" firstAttribute="top" secondItem="lkr-en-AOh" secondAttribute="bottom" constant="15" id="8gd-CQ-rnA"/>
+                            <constraint firstItem="Dwj-H2-zNS" firstAttribute="centerX" secondItem="pMb-Vy-NuR" secondAttribute="centerX" id="94Y-gJ-zat"/>
+                            <constraint firstItem="ezZ-7a-ZEr" firstAttribute="leading" secondItem="pMb-Vy-NuR" secondAttribute="leadingMargin" id="9my-6U-Q2v"/>
+                            <constraint firstItem="lkr-en-AOh" firstAttribute="leading" secondItem="pMb-Vy-NuR" secondAttribute="leadingMargin" id="Diz-VJ-S2F"/>
+                            <constraint firstItem="lkr-en-AOh" firstAttribute="trailing" secondItem="pMb-Vy-NuR" secondAttribute="trailingMargin" id="LT6-4a-Mdw"/>
+                            <constraint firstItem="09t-zg-8Sh" firstAttribute="trailing" secondItem="pMb-Vy-NuR" secondAttribute="trailingMargin" id="Zfg-Fe-Hn5"/>
+                            <constraint firstItem="ezZ-7a-ZEr" firstAttribute="trailing" secondItem="pMb-Vy-NuR" secondAttribute="trailingMargin" id="e8t-jF-R2m"/>
+                            <constraint firstItem="Dwj-H2-zNS" firstAttribute="top" secondItem="09t-zg-8Sh" secondAttribute="bottom" constant="15" id="nVW-Ci-AzE"/>
+                            <constraint firstItem="lkr-en-AOh" firstAttribute="top" secondItem="WCi-rj-ALc" secondAttribute="bottom" constant="8" id="ozm-Uo-jxK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ftg-H2-iWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1160" y="1052"/>
+        </scene>
+        <!--Terms-->
+        <scene sceneID="bKu-Ba-cmc">
+            <objects>
+                <viewController title="Terms" id="kkm-dC-nTe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fy8-o5-LwK"/>
+                        <viewControllerLayoutGuide type="bottom" id="bwJ-1k-X0d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I2L-23-HUo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Km0-Zk-rU0">
+                                <rect key="frame" x="20" y="72" width="560" height="520"/>
+                                <string key="text">Definitions
+Company: the Owner of the Website to which the Privacy Policy template refers. 
+Privacy Policy template: the document containing a proposed privacy policy for the User’s Website drawn up on the basis of User selected sections and pre-defined sections by the Company. 
+Service: a service or product offered to the User by My Privacy Policy. 
+User: a physical or legal person that, for the purpose of running a website, uses the Products or Services provided by the Company.
+Services
+By accessing the Site, the User is allowed to make use of, purchase and keep one or more Privacy Policy templates as created by using the privacy policy generator. The Privacy Policy template is created based on a combination of predefined and user selected parameters. Although both the predefined and user selected parameters are pre-written by the Company, it is the User’s responsibility to make sure that every item pertaining to the Privacy Policy template respects all necessary and relevant legal requirements. Similarly, a Privacy Policy template that is compliant with the privacy act does not confirm that the User website is compliant in the way which it collects and handles personal information. It is the responsibility of the User to ensure that the Privacy Policy template is accurate and that it meets their company’s specific needs. The Company is not liable or responsible for any Privacy Policy templates created using our services and gives no warranties, express or implied, that the Privacy Policy templates created are complete, accurate or free from errors or omission. The Company does not provide any professional legal advice and strongly recommends the User to seek professional legal advice. A Privacy Policy template is supplied to the User in text formats to assist the User in amending the template with the assistance of professional legal advice to ensure compliance. The templates generated using this Service are themselves not definitive in their own right.
+Purchase and Payments
+The Site offers a Services which is for sale. All payments made through the Site are handled by a 3rd party payment system. Any payment issues need to be resolved directly with the payment processor. If any matter requires further attention, we will be notified directly by the payment processor. Before the User confirms the final purchase amount, they will be informed of the total price of the service before they commit. Given that this is a one-off payment service, there are no recurring payments and the User will only ever be charged by the payment processor at the time of purchase. An email invoice with unique invoice number will be emailed to the User upon receipt of payment.
+Copyright
+The My Privacy Policy logo and all other trademarks, graphics and logos used in connection with My Privacy Policy, or the Site are trademarks or registered trademarks of My Privacy Policy. Using or visiting the site grants you no right to reproduce or otherwise use the My Privacy Policy trademark.
+Limitation of Liability
+In no event will My Privacy Policy, or its suppliers or licensors, be liable with respect to any aspects of these terms of service under any laws of contract, negligence, strict liability, or other legal or equitable doctrine. The Company shall not be liable for any damages that result from the use or inability to use the services and products provided by the Site. The overall liability can not in any case exceed the fees paid by the User to the Company for the services provided by the Site.
+Indemnification
+You agree to indemnify and hold harmless the Company, its suppliers or licensors and their respective directors, officers, employees and agents from and against any such claims and expenses, including legal fees, arising out of your use of the Site, including but not limited to your violation of this agreement.
+Changes to Our Terms and Privacy Policy
+The Company reserves the right to make any adjustments to these terms from time to time at its discretion. Users are encouraged to check for such changes. Access to the Site constitutes as User’s acceptance of any such changes.
+Independence of Clauses
+Each clause found within theses terms of service is to be interpreted separately and independently of the other clauses. If for whatever reason a clause is deemed invalid or void, it shall no compromise the validity of any other clauses within these terms of service.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Den-BE-g9e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="444"/>
+        </scene>
+        <!--Privacy Policy-->
+        <scene sceneID="83i-Bh-zWo">
+            <objects>
+                <viewController title="Privacy Policy" id="Dk2-ZU-TAI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jg8-DX-NfI"/>
+                        <viewControllerLayoutGuide type="bottom" id="51N-AI-YBa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V9J-8O-c2b">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0h-wz-8e8">
+                                <rect key="frame" x="20" y="72" width="560" height="520"/>
+                                <string key="text">How is my Personal Information Collected? 
+The main way we collect personal information is through you directly or through your authorised representative.
+We sometimes collect personal information from a third party or from a publicly available source, but only if:
+you have consented to such collection or would reasonably expect us to collect your personal information in this way, or
+if it is necessary for a specific purpose such as the investigation of a privacy complaint.
+Your personal information may be collected either directly or through a third party through the following services that are used on our website:
+Payments via PayPal
+Google Analytics
+Contact forms
+User registration
+Mailing list
+How do you use my Personal Information?
+We only use personal information for the purposes for which we collected it – purposes which are directly related to one of our functions or activities that on the whole create a better user experience and product for you at www.myprivacypolicy.com.au.
+Is my Personal Information Stored Securely?
+We take steps to protect the personal information we hold against loss, unauthorised access, use, modification or disclosure, and against other misuse. Further to this, we do not disclose your personal information to any overseas entities, nor store that information anywhere outside of Australia.
+When the personal information that we collect is no longer required, we destroy or delete it in a secure manner.
+Can I Access or Change the Personal Information I give you?
+Yes, you can access the personal information that we hold about you, and you can ask us to correct it. You can email us at info@myprivacypolicy.com
+Our Obligations
+My Privacy Policy is bound by the Australian Privacy Principles in the Privacy Act. We care about our users and do everything we can to adhere to the 13 Australian Privacy Principles as per the OAIC guidelines.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1WZ-sS-y53" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="-283"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="bRC-Zg-wOo">
+            <objects>
+                <navigationController title="Info" automaticallyAdjustsScrollViewInsets="NO" id="Wpc-7f-Zcz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mHV-Iu-myy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9Li-dd-yc6" kind="relationship" relationship="rootViewController" id="Wyb-0V-9Ae"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bEY-zK-dao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="348" y="345"/>
+        </scene>
+    </scenes>
+</document>
