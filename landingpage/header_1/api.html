@@ -11,6 +11,10 @@
 	
 	<body>
 	<div class="container">
+	
+	<h2>Askari API</h2>
+	<h3>Restful Web Service Endpoints</h3>
+	<br/>
 	<table class="striped" width="800">
 		<tr>
 			<td width="80%"><b>URL:</b> /api/mentors</td>
@@ -34,6 +38,22 @@
 		<tr>
 			<td colspan="2"><b>Description:</b> Allows submission of a new mentor. Returns the persisted user entity.<br/><br/></td>
 		</tr>
+		
+		<tr>
+			<td width="80%"><b>URL:</b> /api/mentors?industry=%IndustryString%</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Returns a list of mentor user entities filtered by industry.<br/><br/></td>
+		</tr>
+		<tr>
+			<td><b>URL:</b> /api/mentees?industry=%IndustryString%</td>
+			<td><b>METHOD:</b> GET</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Description:</b> Returns a list of mentee user entities filtered by industry.<br/><br/></td>
+		</tr>
+		
 		
 		<tr>
 			<td><b>URL:</b> /api/user/%UserId%</td>
