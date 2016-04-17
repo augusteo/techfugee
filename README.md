@@ -4,5 +4,5 @@
 
 ## Access
 
-[Website](https://www.askari.xyz/)
-[API Documentation](https://www.askari.xyz/api.html)
+ - [Website](https://www.askari.xyz/)
+ - [API Documentation](https://www.askari.xyz/api.html)
